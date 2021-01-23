@@ -234,7 +234,7 @@ const Main = ({ navigation }) => {
                 <Text style={styles.bottonSubText}> By logging in to Memoria, you agree to our <Text onPress={() => {
                   navigationActions.navigateToTermsCondition()
                 }} style={styles.clickableText}>Terms & Conditions</Text> and <Text onPress={() => {
-                  navigationActions.navigateToTermsCondition()
+                  navigationActions.navigateToLegalPolicy()
                 }} style={styles.clickableText}>Privacy Policy</Text>.</Text>
               </View>
 

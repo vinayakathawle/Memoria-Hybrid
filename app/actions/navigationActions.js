@@ -19,6 +19,10 @@ export function navigateToTermsCondition(params) {
   NavigationService.navigate('TermsCondition', params);
 }
 
+export function navigateToLegalPolicy(params) {
+  NavigationService.navigate('LegalPolicy', params);
+}
+
 export function navigateToOption(params) {
   NavigationService.navigate('Option', params);
 }

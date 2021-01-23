@@ -4,6 +4,7 @@ import Login from 'app/screens/Login';
 import Signup from 'app/screens/Signup';
 import ForgotPassword from 'app/screens/ForgotPassword';
 import TermsCondition from 'app/screens/TermsCondition';
+import LegalPolicy from 'app/screens/LegalPolicy';
 import Option from 'app/screens/Option';
 
 const Stack = createStackNavigator();
@@ -14,6 +15,7 @@ const AuthStackNavigator = () => (
     <Stack.Screen name="Signup" component={Signup} options={{title: ''}}/>
     <Stack.Screen name="ForgotPassword" component={ForgotPassword} options={{title: ''}}/>
     <Stack.Screen name="TermsCondition" component={TermsCondition} options={{title: ''}}/>
+    <Stack.Screen name="LegalPolicy" component={LegalPolicy} options={{title: ''}}/>
     <Stack.Screen name="Option" component={Option} options={{headerShown: false}}/>
   </Stack.Navigator>
 );
