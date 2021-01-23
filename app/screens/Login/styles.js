@@ -11,11 +11,11 @@ const styles = StyleSheet.create({
     padding: 20
   },
   welcomeTitle: {
-    fontFamily: config.fonts.FONT_BLACK,
+    fontFamily: config.fonts.FONT_BOLD,
     fontWeight: 'bold',
     fontSize: 38,
-    marginLeft: 0,
-    paddingTop: 10
+    paddingTop: 20,
+    paddingBottom: 5
   },
   subTitle: {
     fontFamily: config.fonts.FONT_BOOK,
@@ -24,13 +24,27 @@ const styles = StyleSheet.create({
     marginLeft: 0,
     paddingBottom: 20
   },
+
+  remember: {
+    fontFamily: config.fonts.FONT_BOOK,
+    color: "black",
+    fontSize: 12,
+    marginLeft: 0,
+    paddingTop: 0,
+    paddingBottom: 3
+  },
+
   top: {
     justifyContent: 'flex-start',
   },
+  
   footer: {
     flex: 1,
     justifyContent: 'flex-end',
+    paddingTop: 50,
+    paddingBottom: 10,
   },
+  
   bottonText: {
     fontFamily: config.fonts.FONT_BOOK,
     color: "#000000",
@@ -39,40 +53,53 @@ const styles = StyleSheet.create({
     fontWeight: '400',
     paddingBottom: 10
   },
+
   bottonSubText: {
     fontFamily: config.fonts.FONT_BOOK,
     color: "#000000",
     fontSize: 14,
     textAlign: 'center',
-    fontWeight: '300'
+    fontWeight: '300',
+    lineHeight: 20,
   },
+
   forgotPassClickableText: {
     fontFamily: config.fonts.FONT_BOOK,
-    color: "blue",
-    fontSize: 16,
+    color: "#00c6cc",
+    fontSize: 20,
     textAlign: 'center',
     fontWeight: '400',
     paddingTop: 20
   },
+
   clickableText: {
     fontFamily: config.fonts.FONT_BOOK,
-    color: "blue",
+    color: "#00c6cc",
     fontSize: 16,
     textAlign: 'center',
-    fontWeight: '300'
+    fontWeight: '300',
+    paddingBottom: 0,
+    lineHeight: 20,
+
   },
+
   wrap: {
-    marginTop: 20
+    marginTop: 10,
   },
+
   buttonTitle: {
-    fontFamily: config.fonts.FONT_BOOK
+    fontFamily: config.fonts.FONT_BOOK,
+    fontSize: 18,    
   },
+  
   image: {
     marginBottom: 40,
   },
+
   bottonView: {
     marginBottom: 40,
   },
+
   inputView: {
     backgroundColor: "#FFFFFF",
     borderRadius: 5,

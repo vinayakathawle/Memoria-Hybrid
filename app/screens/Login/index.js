@@ -141,7 +141,7 @@ const Main = ({ navigation }) => {
   }
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: config.color.COLOR_WHITE }}>
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }}>
           <View style={styles.container}>
@@ -151,15 +151,15 @@ const Main = ({ navigation }) => {
             }
             <View style={styles.subContainer}>
               <View style={styles.top}>
-                <Text style={styles.welcomeTitle}> Welcome,</Text>
-                <Text style={styles.subTitle}> Sign in to continue!</Text>
+                <Text style={styles.welcomeTitle}>Welcome,</Text>
+                <Text style={styles.subTitle}>Sign in to continue!</Text>
               </View>
 
               <View style={styles.inputView}>
                 <TextInput
                   style={styles.TextInput}
                   placeholder="Email."
-                  placeholderTextColor="#003f5c"
+                  placeholderTextColor="#DCDCDC"
                   value={email}
                   onChangeText={(email) => setEmail(email)}
                 />
@@ -169,7 +169,7 @@ const Main = ({ navigation }) => {
                 <TextInput
                   style={styles.TextInput}
                   placeholder="Password."
-                  placeholderTextColor="#003f5c"
+                  placeholderTextColor="#DCDCDC"
                   secureTextEntry={showPassword}
                   value={password}
                   onChangeText={(password) => setPassword(password)}
@@ -178,7 +178,7 @@ const Main = ({ navigation }) => {
                   type="font-awesome"
                   name={eyeIcon}
                   size={20}
-                  color="blue"
+                  color="#00c6cc"
                   containerStyle={{
                     position: 'absolute',
                     right: 12,
@@ -197,13 +197,13 @@ const Main = ({ navigation }) => {
                   type="font-awesome"
                   name={rememberMeIcon}
                   size={20}
-                  color={config.color.COLOR_BLUE}
+                  color="#00c6cc"
                   containerStyle={{
                     marginRight: 5
                   }}
                   onPress={onChangeRememberMeIcon}
                 />
-                <Text>Remember me</Text>
+                <Text style={styles.remember}>Remember me</Text>
               </View>
 
               <View style={styles.wrap}>
@@ -218,6 +218,10 @@ const Main = ({ navigation }) => {
                         title="Login"
                         onPress={onLogin}
                         titleStyle={styles.buttonTitle}
+                        buttonStyle={{
+                          backgroundColor:'#00c6cc',
+                          height: 40
+                        }}
                       />
                     )
                 }
@@ -240,7 +244,7 @@ const Main = ({ navigation }) => {
 
             </View>
 
-            <Modal
+            {/* <Modal
               modalVisible={modalVisible}
               setModalVisible={setModalVisible}
               message={errorMessage}
@@ -248,7 +252,7 @@ const Main = ({ navigation }) => {
                 setModalVisible(false)
               }}
               error={true}
-            />
+            /> */}
           </View>
         </ScrollView>
       </TouchableWithoutFeedback>
