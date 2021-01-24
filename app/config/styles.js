@@ -30,5 +30,8 @@ const AppStyles = {
     FONT_XLIGHT: 'GothamXLight',
     FONT_XLIGHT_ITALIC: 'GothamXLightItalic',
   },
+  texts: {
+    LOADING: 'Loading...'
+  }
 };
 export default AppStyles;

@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import {
   View,
   SafeAreaView,
@@ -20,17 +20,17 @@ import firebase from "@react-native-firebase/app";
 import auth from '@react-native-firebase/auth';
 import credentials from 'app/config/firebase';
 import Spinner from 'app/components/Spinner';
-import Modal from 'app/components/Modal';
+import DialogBox from 'react-native-dialogbox';
 
 const Main = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
   const [showPassword, setShowPassword] = useState(true);
   const [eyeIcon, setEyeIcon] = useState('eye-slash');
   const [rememberMeIcon, setRememberMeIcon] = useState('square-o');
   const [isRememberMe, setIsRememberMe] = useState(false);
-  const [modalVisible, setModalVisible] = useState(false);
+
+  const dialogbox = useRef(null);
 
   useEffect(() => {
     getStorageValue();
@@ -43,7 +43,7 @@ const Main = ({ navigation }) => {
       let rememberMe  = await AsyncStorage.getItem('rememberMe');
       setEmail(rememberUsername)
       setPassword(rememberPassword)
-      console.log('rememberMe', rememberMe)
+      
       if(rememberMe === 'true'){
         setIsRememberMe(true)
         setRememberMeIcon('check-square-o')
@@ -86,10 +86,15 @@ const Main = ({ navigation }) => {
           AsyncStorage.setItem('rememberUsername', email);
           AsyncStorage.setItem('rememberPassword', password);
           AsyncStorage.setItem('rememberMe', 'true');
+        } else {
+          AsyncStorage.setItem('rememberUsername', '');
+          AsyncStorage.setItem('rememberPassword', '');
+          AsyncStorage.setItem('rememberMe', 'false');
         }
       })
       .catch(error => {
         dispatch(loginActions.disableLoader());
+        
         let message;
         switch (error.code) {
           case 'auth/too-many-requests':
@@ -111,8 +116,30 @@ const Main = ({ navigation }) => {
             message = 'The entered email or password is invalid';
             break;
         }
-        setErrorMessage(message);
-        setModalVisible(true);
+
+        dialogbox.current.confirm({
+          content: message,
+          ok: {
+            text: 'Ok',
+            style: {
+              color: config.color.COLOR_BLUE,
+              fontFamily: config.fonts.FONT_BOOK
+            }
+          },
+          cancel: {
+            text: 'Cancel',
+            style: {
+              color: config.color.COLOR_GRAY,
+              fontFamily: config.fonts.FONT_BOOK
+            }
+          },
+        }).then((event) => {
+          if (event.button) {
+            // dialogbox.current.alert(`You selected ${event.button.text}`);
+          } else {
+            // dialogbox.current.alert('Dialog cancelled');
+          }
+        });
       });
     } catch (e) {
       console.log(e);
@@ -145,10 +172,7 @@ const Main = ({ navigation }) => {
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }}>
           <View style={styles.container}>
-            {
-              isLoginLoading &&
-              <Spinner />
-            }
+            <Spinner key={Math.random()} visible={isLoginLoading} />
             <View style={styles.subContainer}>
               <View style={styles.top}>
                 <Text style={styles.welcomeTitle}> Welcome,</Text>
@@ -207,20 +231,11 @@ const Main = ({ navigation }) => {
               </View>
 
               <View style={styles.wrap}>
-                {
-                  isLoginLoading ? (
-                    <Button
-                      title="Loading button"
-                      loading
-                    />
-                  ) : (
-                      <Button
-                        title="Login"
-                        onPress={onLogin}
-                        titleStyle={styles.buttonTitle}
-                      />
-                    )
-                }
+                <Button
+                  title="Login"
+                  onPress={onLogin}
+                  titleStyle={styles.buttonTitle}
+                />
               </View>
               
               <Text onPress={() => {
@@ -239,17 +254,8 @@ const Main = ({ navigation }) => {
               </View>
 
             </View>
-
-            <Modal
-              modalVisible={modalVisible}
-              setModalVisible={setModalVisible}
-              message={errorMessage}
-              onOkPress={() => {
-                setModalVisible(false)
-              }}
-              error={true}
-            />
           </View>
+          <DialogBox ref={dialogbox} />
         </ScrollView>
       </TouchableWithoutFeedback>
     </SafeAreaView>

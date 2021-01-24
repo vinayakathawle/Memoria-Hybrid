@@ -6,15 +6,9 @@ import { useDispatch } from 'react-redux';
 import config from 'app/config/styles';
 import AsyncStorage from '@react-native-community/async-storage';
 import images from 'app/config/images';
-import * as optionActions from 'app/actions/optionActions';
 import * as navigationActions from 'app/actions/navigationActions';
-import firebase from "@react-native-firebase/app";
-import auth from '@react-native-firebase/auth';
-import credentials from 'app/config/firebase';
-import Modal from 'app/components/Modal';
 
 const CustomDrawerContent = props => {
-  const dispatch = useDispatch();
   const [userName, setUserName] = useState('');
   const [role, setRole] = useState('');
   const [firstName, setFirstName] = useState('');
@@ -196,31 +190,10 @@ const CustomDrawerContent = props => {
           <DrawerItem
             label="Logout"
             labelStyle={styles.itemLabel} 
-            onPress={async () => {
-              if (!firebase.apps.length) {
-                await firebase.initializeApp(credentials);
-              } else {
-                await firebase.app();
-              }
-              setModalVisible(true);
-
-            }}
+            onPress={props.onLogout}
           /> 
         </View>
       </View>
-
-      <Modal
-        modalVisible={modalVisible}
-        setModalVisible={setModalVisible}
-        message="Are you sure you want to logout?"
-        onOkPress={() => {
-          auth()
-            .signOut()
-            .then(() => {
-              dispatch(optionActions.logOut());
-            });
-        }}
-      />
     </DrawerContentScrollView>
   );
 };

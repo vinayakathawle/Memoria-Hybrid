@@ -2,6 +2,41 @@ import { StyleSheet } from 'react-native';
 import config from 'app/config/styles';
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'transparent',
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0
+  },
+  background: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'transparent'
+  },
+  textContainer: {
+    flex: 1,
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute'
+  },
+  textContent: {
+    top: 25,
+    color: config.color.COLOR_WHITE,
+    fontSize: 20,
+    fontFamily: config.fonts.FONT_BOOK
+  },
   headerTitle: {
     flex: 1,
     justifyContent: 'center',
