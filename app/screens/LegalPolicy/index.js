@@ -10,13 +10,13 @@ import {
 import styles from './styles';
 import { WebView } from 'react-native-webview';
 
-const TermCondition = ({ navigation }) => {
+const Policies = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }}>
           <View style={styles.container}>
-            <WebView source={{ uri: 'https://memoria-inc.com/term-of-service/' }} />
+            <WebView source={{ uri: 'https://memoria-inc.com/privacy-policy/' }} />
           </View>
         </ScrollView>
       </TouchableWithoutFeedback>
@@ -24,4 +24,4 @@ const TermCondition = ({ navigation }) => {
   );
 };
 
-export default TermCondition;
+export default Policies;
