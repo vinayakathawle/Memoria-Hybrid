@@ -12,8 +12,8 @@ const Stack = createStackNavigator();
 const AuthStackNavigator = () => (
   <Stack.Navigator>
     <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
-    <Stack.Screen name="Signup" component={Signup} options={{title: ''}}/>
-    <Stack.Screen name="ForgotPassword" component={ForgotPassword} options={{title: ''}}/>
+    <Stack.Screen name="Signup" component={Signup} options={{headerShown: false}}/>
+    <Stack.Screen name="ForgotPassword" component={ForgotPassword} options={{headerShown: false}}/>
     <Stack.Screen name="TermsCondition" component={TermsCondition} options={{title: ''}}/>
     <Stack.Screen name="LegalPolicy" component={LegalPolicy} options={{title: ''}}/>
     <Stack.Screen name="Option" component={Option} options={{headerShown: false}}/>
