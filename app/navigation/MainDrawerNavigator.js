@@ -5,10 +5,10 @@ import CustomDrawerContent from './CustomDrawer';
 
 const Drawer = createDrawerNavigator();
 
-const MainDrawerNavigator = () => (
+const MainDrawerNavigator = (props) => (
   <Drawer.Navigator
     drawerStyle={{ width: '60%' }}
-    drawerContent={props => <CustomDrawerContent {...props} />}>
+    drawerContent={prop => <CustomDrawerContent {...prop} onLogout={props.onLogout}/>}>
     <Drawer.Screen name="Dashboard" component={DashboardStack} />
   </Drawer.Navigator>
 );
