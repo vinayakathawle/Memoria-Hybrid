@@ -21,6 +21,8 @@ import auth from '@react-native-firebase/auth';
 import credentials from 'app/config/firebase';
 import Spinner from 'app/components/Spinner';
 import DialogBox from 'react-native-dialogbox';
+import * as ValidationController from 'app/components/ValidationController';
+import Error from 'app/components/Error';
 
 const Main = ({ navigation }) => {
   const [email, setEmail] = useState('');
@@ -29,6 +31,8 @@ const Main = ({ navigation }) => {
   const [eyeIcon, setEyeIcon] = useState('eye-slash');
   const [rememberMeIcon, setRememberMeIcon] = useState('square-o');
   const [isRememberMe, setIsRememberMe] = useState(false);
+  const [isValidateEmail, setIsValidateEmail] = useState(true);
+  const [isValidatePassword, setIsValidatePassword] = useState(true);
 
   const dialogbox = useRef(null);
 
@@ -62,7 +66,27 @@ const Main = ({ navigation }) => {
   const dispatch = useDispatch();
 
   const onLogin = async () => {
+    const validateEmail = ValidationController.validateEmail(email);
+    const validatePassword = ValidationController.validatePassword(password);
+    
+    if(!validateEmail || !validatePassword) {
+      if(!validateEmail) {
+        setIsValidateEmail(false)
+      } else {
+        setIsValidateEmail(true)
+      }
 
+      if(!validatePassword) {
+        setIsValidatePassword(false)
+      } else {
+        setIsValidatePassword(true)
+      }
+      return true
+    } else {
+      setIsValidateEmail(true)
+      setIsValidatePassword(true)
+    } 
+  
     dispatch(loginActions.enableLoader());
 
     try {
@@ -175,45 +199,57 @@ const Main = ({ navigation }) => {
             <Spinner key={Math.random()} visible={isLoginLoading} />
             <View style={styles.subContainer}>
               <View style={styles.top}>
-                <Text style={styles.welcomeTitle}>Welcome,</Text>
+              <Text style={styles.welcomeTitle}>Welcome,</Text>
                 <Text style={styles.subTitle}>Sign in to continue!</Text>
               </View>
 
-              <View style={styles.inputView}>
-                <TextInput
-                  style={styles.TextInput}
-                  placeholder="Email."
-                  placeholderTextColor="#DCDCDC"
-                  value={email}
-                  onChangeText={(email) => setEmail(email)}
-                />
+              <View style={styles.inputViewContainer}>
+                <View style={styles.inputView}>
+                  <TextInput
+                    style={styles.TextInput}
+                    placeholder="Email."
+                    placeholderTextColor="#DCDCDC"
+                    value={email}
+                    onChangeText={(email) => setEmail(email)}
+                  />
+                </View>
+                {
+                  !isValidateEmail &&
+                  <Error message="Email must be valid."/>
+                }
               </View>
 
-              <View style={styles.inputView}>
-                <TextInput
-                  style={styles.TextInput}
-                  placeholder="Password."
-                  placeholderTextColor="#DCDCDC"
-                  secureTextEntry={showPassword}
-                  value={password}
-                  onChangeText={(password) => setPassword(password)}
-                />
-                <Icon
-                  type="font-awesome"
-                  name={eyeIcon}
-                  size={20}
-                  color="#00c6cc"
-                  containerStyle={{
-                    position: 'absolute',
-                    right: 12,
-                    height: 45,
-                    flex: 1,
-                    alignItems: 'center',
-                    alignSelf: 'center',
-                    justifyContent: 'center'
-                  }}
-                  onPress={onPasswordIconChange}
-                />
+              <View style={styles.inputViewContainer}>
+                <View style={styles.inputView}>
+                  <TextInput
+                    style={styles.TextInput}
+                    placeholder="Password."
+                    placeholderTextColor="#DCDCDC"
+                    secureTextEntry={showPassword}
+                    value={password}
+                    onChangeText={(password) => setPassword(password)}
+                  />
+                  <Icon
+                    type="font-awesome"
+                    name={eyeIcon}
+                    size={20}
+                    color="#00c6cc"
+                    containerStyle={{
+                      position: 'absolute',
+                      right: 12,
+                      height: 45,
+                      flex: 1,
+                      alignItems: 'center',
+                      alignSelf: 'center',
+                      justifyContent: 'center'
+                    }}
+                    onPress={onPasswordIconChange}
+                  />
+                </View>
+                {
+                  !isValidatePassword &&
+                  <Error message="Password must be valid."/>
+                }
               </View>
 
               <View style={styles.rememberWrap}>
@@ -221,7 +257,6 @@ const Main = ({ navigation }) => {
                   type="font-awesome"
                   name={rememberMeIcon}
                   size={20}
-                  color="#00c6cc"
                   containerStyle={{
                     marginRight: 5
                   }}
@@ -231,25 +266,15 @@ const Main = ({ navigation }) => {
               </View>
 
               <View style={styles.wrap}>
-
-                {
-                  isLoginLoading ? (
-                    <Button
-                      title="Loading button"
-                      loading
-                    />
-                  ) : (
-                      <Button
-                        title="Login"
-                        onPress={onLogin}
-                        titleStyle={styles.buttonTitle}
-                        buttonStyle={{
-                          backgroundColor:'#00c6cc',
-                          height: 40
-                        }}
-                      />
-                    )
-                }
+                <Button
+                  title="Login"
+                  onPress={onLogin}
+                  titleStyle={styles.buttonTitle}
+                  buttonStyle={{
+                    backgroundColor:'#00c6cc',
+                    height: 40
+                  }}
+                />
               </View>
               
               <Text onPress={() => {
@@ -263,7 +288,6 @@ const Main = ({ navigation }) => {
                 <Text style={styles.bottonSubText}> By logging in to Memoria, you agree to our <Text onPress={() => {
                   navigationActions.navigateToTermsCondition()
                 }} style={styles.clickableText}>Terms & Conditions</Text> and <Text onPress={() => {
-                  navigationActions.navigateToLegalPolicy()
                 }} style={styles.clickableText}>Privacy Policy</Text>.</Text>
               </View>
 

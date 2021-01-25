@@ -92,6 +92,12 @@ const styles = StyleSheet.create({
   buttonWrap: {
     flexDirection: 'row',
     marginTop: 15
+  },
+  errorMessage: {
+    color: config.color.COLOR_RED,
+    fontSize: 13,
+    fontFamily: config.fonts.FONT_BOOK,
+    paddingTop: 4
   }
 });
 
