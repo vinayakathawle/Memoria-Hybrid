@@ -14,7 +14,20 @@ export function requestLogin(uid, token) {
 export function onLoginResponse(response) {
   return {
     type: types.LOGIN_RESPONSE,
-    response,
+    response
+  };
+}
+
+export function getUserAccounts() {
+  return {
+    type: types.GET_USER_ACCOUNT
+  };
+}
+
+export function userAccountResponse(response) {
+  return {
+    type: types.USER_ACCOUNT_RESPONSE,
+    response
   };
 }
 

@@ -19,7 +19,6 @@ const ModalBox = ({
     onOkPress,
     error
 }) => {
-    console.log('message', message)
     return (
         <View style={styles.centeredView}>
             <Modal

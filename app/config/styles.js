@@ -11,6 +11,7 @@ const AppStyles = {
     COLOR_RED: '#FF0000',
     COLOR_1F1F1F: '#1F1F1F',
     COLOR_BLUE: 'blue',
+    COLOR_GREEN: 'green'
   },
   fonts: {
     FONT_BLACK: 'GothamBlack',

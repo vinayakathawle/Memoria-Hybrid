@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   SafeAreaView,
@@ -12,27 +12,29 @@ import styles from './styles';
 import RadioButtonRN from 'radio-buttons-react-native';
 import { Icon } from 'react-native-elements';
 import * as optionActions from 'app/actions/optionActions';
+import * as loginActions from 'app/actions/loginActions';
+import config from 'app/config/styles';
 
 const Option = ({ navigation }) => {
-  const [options, setOptions] = useState([
-    {
-      label: 'Option 1'
-    },
-    {
-      label: 'Option 2'
-    },
-    {
-      label: 'Option 3'
-    },
-    {
-      label: 'Option 4'
-    },
-    {
-      label: 'Option 5'
-    }
-  ]);
+  const [options, setOptions] = useState([]);
+
+  const {
+    loginReducer: { accountSet }
+  } = useSelector(state => state);
 
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (accountSet.length === 0) {
+      dispatch(loginActions.getUserAccounts());
+    } else {
+      let accountSetArray = [];
+      accountSet.map((item) => {
+        accountSetArray.push({label: item.accountName, value: item.accountId})
+      })
+      setOptions(accountSetArray);
+    }
+  }, [accountSet]);
 
   const onOptionSelection = (option) => {
     setTimeout(() => {
@@ -45,19 +47,26 @@ const Option = ({ navigation }) => {
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ flexGrow: 1 }}>
           <View style={styles.container}>
-            <Text style={styles.description}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </Text>
+          <View style={styles.top}>
+                <Text style={styles.welcomeTitle}>Select Account,</Text>
+                <Text style={styles.subTitle}>Choose the team you'd like to work with for now. It's easy to switch between teams whenever you need to later on</Text>
+              </View>
             <RadioButtonRN
-                data={options}
-                selectedBtn={onOptionSelection}
-                icon={
-                    <Icon
-                        name="check-circle"
-                        size={25}
-                        color="#2c9dd1"
-                    />
-                }
+              data={options}
+              selectedBtn={onOptionSelection}
+              animationTypes={["pulse"]}
+              icon={
+                <Icon
+                  name="check"
+                  size={50}
+                  color={config.color.COLOR_GREEN}
+                />
+              }
+              textStyle={{
+                fontFamily: config.fonts.FONT_BOLD,
+                fontSize: 16,
+                paddingBottom: 5
+              }}
             />
           </View>
         </ScrollView>

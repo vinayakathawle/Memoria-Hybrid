@@ -3,7 +3,6 @@ import axios from 'axios';
 import * as forgotpasswordActions from 'app/actions/forgotpasswordActions';
 import * as types from 'app/actions/types';
 import apiconstants from 'app/config/apiconstants';
-import * as navigationActions from 'app/actions/navigationActions';
 
 function forgotPassword(email) {
   const params =  {
@@ -20,12 +19,11 @@ function forgotPassword(email) {
     'Content-Length': '41',
     'Connection': 'keep-alive',
     'cache-control': 'no-cache'
-    }
-console.log(apiconstants.BASE_URL + apiconstants.FORGOT_PASSWORD)
+  }
   return axios.patch(apiconstants.BASE_URL + apiconstants.FORGOT_PASSWORD, params, {
     headers: headers
   })
-  .then((response) => response.data)
+  .then((response) => response)
   .catch((error) => {
     if (error.response) {
       return error.response.data
@@ -39,27 +37,24 @@ console.log(apiconstants.BASE_URL + apiconstants.FORGOT_PASSWORD)
 
 // Our worker Saga that forgotpassword  user
 function* forgotPasswordAsync(action) {
-
-  console.log('forgotpass saga')
   try {
-    // yield put(forgotpasswordActions.enableLoader());
+    yield put(forgotpasswordActions.enableLoader());
 
     const response = yield call(forgotPassword, action.email);
-    console.log('response -- ', response)
 
-    if (response == "") {
-      console.log('response.users', response)
+    if (response.status == 200) {
 
       yield put(forgotpasswordActions.onForgotPasswordResponse(response));
       yield put(forgotpasswordActions.disableLoader());
       return;
-    } else {
-      console.log('response.else', response)
+    } else if (response.status == 404) {
 
-      yield put(forgotpasswordActions.forgotPasswordFailed(response));
-
+      yield put(forgotpasswordActions.forgotPasswordFailed(response.message));
       yield put(forgotpasswordActions.disableLoader());
-     // yield put(forgotpasswordActions.forgotPasswordFailed(error.message));
+    } else {
+
+      yield put(forgotpasswordActions.forgotPasswordFailed(response.error));
+      yield put(forgotpasswordActions.disableLoader());
     }
 
   } catch (error) {

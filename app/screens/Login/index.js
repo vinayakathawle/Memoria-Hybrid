@@ -69,18 +69,28 @@ const Main = ({ navigation }) => {
     const validateEmail = ValidationController.validateEmail(email);
     const validatePassword = ValidationController.validatePassword(password);
     
-    if(!validateEmail || !validatePassword) {
+    if(!validateEmail || password == null) {
+      let fieldErrorMessage = '';
       if(!validateEmail) {
+        fieldErrorMessage += 'Email, '
         setIsValidateEmail(false)
       } else {
         setIsValidateEmail(true)
       }
 
-      if(!validatePassword) {
+      if(password == null) {
+        fieldErrorMessage += 'Password '
         setIsValidatePassword(false)
       } else {
         setIsValidatePassword(true)
       }
+
+      fieldErrorMessage += 'fields must be valid.'
+
+      dialogbox
+        .current
+        .alert(fieldErrorMessage);
+      
       return true
     } else {
       setIsValidateEmail(true)
@@ -144,16 +154,16 @@ const Main = ({ navigation }) => {
         dialogbox.current.confirm({
           content: message,
           ok: {
-            text: 'Ok',
+            text: 'OK',
             style: {
               color: config.color.COLOR_BLUE,
               fontFamily: config.fonts.FONT_BOOK
             }
           },
           cancel: {
-            text: 'Cancel',
+            text: 'CANCEL',
             style: {
-              color: config.color.COLOR_GRAY,
+              color: config.color.COLOR_BLUE,
               fontFamily: config.fonts.FONT_BOOK
             }
           },
@@ -213,10 +223,6 @@ const Main = ({ navigation }) => {
                     onChangeText={(email) => setEmail(email)}
                   />
                 </View>
-                {
-                  !isValidateEmail &&
-                  <Error message="Email must be valid."/>
-                }
               </View>
 
               <View style={styles.inputViewContainer}>
@@ -246,10 +252,6 @@ const Main = ({ navigation }) => {
                     onPress={onPasswordIconChange}
                   />
                 </View>
-                {
-                  !isValidatePassword &&
-                  <Error message="Password must be valid."/>
-                }
               </View>
 
               <View style={styles.rememberWrap}>

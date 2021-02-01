@@ -15,3 +15,12 @@ export const validatePassword = (password) => {
         return false
     }
 }
+
+export const validateRequired = (value) => {
+    let requiredRegEx = /^[\+\-]?\d*\.?\d+(?:[Ee][\+\-]?\d+)?$/;
+    if(value && requiredRegEx.test(value)){
+        return true
+    }else{
+        return false
+    }
+}

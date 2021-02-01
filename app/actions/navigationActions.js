@@ -12,7 +12,7 @@ export function navigateToForgotPassword(params) {
 }
 
 export function navigateToLogin(params) {
-  NavigationService.navigate('Signup', params);
+  NavigationService.navigate('Login', params);
 }
 
 export function navigateToSignup(params) {

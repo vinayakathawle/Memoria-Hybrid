@@ -107,21 +107,16 @@ const styles = StyleSheet.create({
     width: "100%",
     height: 45,
     marginBottom: 15,
-    alignItems: "center",
     borderColor: "lightgray",
     borderTopWidth: .5,
     borderBottomWidth: .5,
     borderLeftWidth: .5,
     borderRightWidth: .5,
-    position: 'relative'
+    paddingHorizontal: 10,
+    textAlignVertical: 'center'
   },
   TextInput: {
-    width: "100%",
-    height: 50,
-    flex: 1,
-    padding: 10,
-    marginLeft: 20,
-    marginRight: 20,
+    width: "100%"
   },
   forgot_button: {
     height: 30,

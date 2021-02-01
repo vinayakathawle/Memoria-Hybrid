@@ -12,11 +12,16 @@ import {
 import styles from './styles';
 import { Button, Icon } from 'react-native-elements';
 import * as signupActions from 'app/actions/signupActions';
+import * as navigationActions from 'app/actions/navigationActions';
 import { useDispatch, useSelector } from 'react-redux';
 import Spinner from 'app/components/Spinner';
 import * as ValidationController from 'app/components/ValidationController';
 import Error from 'app/components/Error';
 import DialogBox from 'react-native-dialogbox';
+import PickerModal from 'react-native-picker-modal-view';
+import config from 'app/config/styles';
+
+import data from '../../assets/CitiesAndTimeZones.json';
 
 const Signup = ({ navigation }) => {
 
@@ -25,68 +30,90 @@ const Signup = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [company, setCompany] = useState('');
   const [timezone, setTimeZone] = useState('');
+  const [selectedItem, setSelectedItem] = useState({});
 
+  const [isValidateFirstname, setIsValidateFirstname] = useState(true);
+  const [isValidateLastname, setIsValidateLastname] = useState(true);
   const [isValidateEmail, setIsValidateEmail] = useState(true);
+  const [isValidateTimezone, setIsValidateTimezone] = useState(true);
+  const [isValidateCompany, setIsValidateCompany] = useState(true);
 
   const dialogbox = useRef(null);
 
   const {
     loadingReducer: { isSignUpLoading },
-    signUpReducer: { response },
+    signUpReducer: { isSuccess, errorMessage },
   } = useSelector(state => state);
-
-  useEffect(() => {
-    console.log('response ->',response)
-    if (response == "") {
-
-      // dialogbox.tip({
-      //   title: 'Success!',
-      //   content: 'A message will be sent to below address containing a link to reset your password.',
-      //   btn: {
-      //       text: 'Login To My Account'
-      //   }
-      // }).then(() => (
-      //   navigationActions.navigateToLogin()
-      // ));
-    } else {
-
-    }
-  }, [response]);
 
   const dispatch = useDispatch();
 
-  const onSignUp = async () => {
-    console.log("onSignUp");
-    console.log(timezone);
+  useEffect(() => {
+    dispatch(signupActions.signupNull());
+    
+    if (isSuccess && isSuccess !== '') {
+      dialogbox.current.tip({
+        title: 'Success!',
+        content: 'Successfully signup.',
+        btn: {
+          text: 'Login To My Account',
+          callback: () => {
+            navigationActions.navigateToLogin()
+          }
+        }
+      });
+    }
+    if(!isSuccess && isSuccess !== '') {
+      dialogbox.current.tip({
+        content: errorMessage,
+        btn: {
+          text: 'Login To My Account',
+          callback: () => {
+            navigationActions.navigateToLogin()
+          }
+        }
+      });
+    }
+  }, [isSuccess]);
 
+  const onSignUp = async () => {
     const validateEmail = ValidationController.validateEmail(email);
     
-    if(!validateEmail) {
-      console.log("validateEmail");
+    if(firstName === '' || lastName === '' || !validateEmail || company === '' || timezone === '') {
+    
+      let fieldErrorMessage = 'All fields are required.'
 
-      setIsValidateEmail(false)
+      dialogbox
+        .current
+        .alert(fieldErrorMessage);
+      
       return true
     } else {
+      setIsValidateFirstname(true)
+      setIsValidateLastname(true)
       setIsValidateEmail(true)
-    } 
-  
-    console.log("validate");
+      setIsValidateTimezone(true)
+      setIsValidateCompany(true)
+    }
 
     dispatch(signupActions.enableLoader());
 
     try {
-      console.log("try");
-      console.log(firstName);
-
       dispatch(signupActions.requestSignUp(firstName, lastName, email, company, timezone));
-
     } catch (e) {
       dispatch(signupActions.disableLoader());
       console.log(e);
     }
   }
 
+  const onClosed = () => {
+		setTimeZone('')
+	}
 
+	const onSelected = (selected) => {
+    setSelectedItem(selected)
+    setTimeZone(selected.Id)
+  }
+  
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
@@ -130,13 +157,31 @@ const Signup = ({ navigation }) => {
                 />
               </View>
 
-              <View style={styles.inputView}>
-                <TextInput
-                  style={styles.TextInput}
-                  placeholder="Timezone"
-                  placeholderTextColor="#DCDCDC"
-                  value={timezone}
-                  onChangeText={(timezone) => setTimeZone(timezone)}
+              <View>
+                <PickerModal
+                  renderSelectView={(disabled, selected, showModal) =>
+                    <Text
+                      onPress={showModal}
+                      style={[styles.inputView, {color: selected.Id ? '#000' : '#DCDCDC'}]}
+                    >
+                      {selected.Id ? selected.Id : 'timezone'}
+                    </Text>
+                  }
+                  onSelected={onSelected}
+                  onClosed={onClosed}
+                  items={data}
+                  sortingLanguage={'tr'}
+                  showToTopButton={true}
+                  selected={selectedItem}
+                  showAlphabeticalIndex={true}
+                  autoGenerateAlphabeticalIndex={true}
+                  selectPlaceholderText={'Choose one...'}
+                  onEndReached={() => console.log('list ended...')}
+                  searchPlaceholderText={'Search...'}
+                  requireSelection={false}
+                  autoSort={false}
+                  backButtonDisabled={true}
+                  showAlphabeticalIndex={false}
                 />
               </View>
 
@@ -152,15 +197,15 @@ const Signup = ({ navigation }) => {
 
               <View style={styles.wrap}>
                 {
-                      <Button
-                        title="Sign Up"
-                        titleStyle={styles.buttonTitle}
-                        onPress={onSignUp}
-                        buttonStyle={{
-                          backgroundColor:'#00c6cc',
-                          height: 40
-                        }}
-                      />
+                  <Button
+                    title="Sign Up"
+                    titleStyle={styles.buttonTitle}
+                    onPress={onSignUp}
+                    buttonStyle={{
+                      backgroundColor:'#00c6cc',
+                      height: 40
+                    }}
+                  />
                 }
               </View>
               

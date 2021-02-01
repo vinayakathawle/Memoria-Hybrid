@@ -25,7 +25,7 @@ function signUpUser(firstName, lastName, email, company, timeZone) {
   return axios.post( apiconstants.BASE_URL + apiconstants.SIGNUP, params, {
     headers: headers
   })
-  .then((response) => response.data)
+  .then((response) => response)
   .catch((error) => {
     if (error.response) {
       return error.response.data
@@ -45,12 +45,11 @@ function* signUpAsync(action) {
     const response = yield call(signUpUser, action.firstName, action.lastName, action.email, action.company, action.timeZone);
     console.log('signup - response', response)
 
-    if (response) {
+    if (response.status === 200) {
       yield put(signupActions.disableLoader());
       
       yield put(signupActions.onSignUpResponse(response));
-      yield call(storeUserInfo, response);
-      yield call(navigationActions.navigateToOption);
+      yield call(storeUserInfo, response.data);
       return;
     } else {
       yield put(signupActions.disableLoader());

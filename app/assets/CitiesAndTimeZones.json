@@ -1,0 +1,3464 @@
+[
+    {
+        "city": "Abidjan",
+        "country": "Ivory Coast",
+        "Id": "Africa/Bamako",
+        "Name": "Abidjan, Ivory Coast"
+    },
+    {
+        "city": "Abu Dhabi",
+        "country": "U.A.E.",
+        "Id": "Asia/Dubai",
+        "Name": "Abu Dhabi, U.A.E."
+    },
+    {
+        "city": "Accra",
+        "country": "Ghana",
+        "Id": "Africa/Accra",
+        "Name": "Accra, Ghana"
+    },
+    {
+        "city": "Adak",
+        "country": "U.S.A.",
+        "Id": "America/Adak",
+        "Name": "Adak, U.S.A."
+    },
+    {
+        "city": "Addis Ababa",
+        "country": "Ethiopia",
+        "Id": "Africa/Addis_Ababa",
+        "Name": "Addis Ababa, Ethiopia"
+    },
+    {
+        "city": "Adelaide",
+        "country": "Australia",
+        "Id": "Australia/Adelaide",
+        "Name": "Adelaide, Australia"
+    },
+    {
+        "city": "Albuquerque",
+        "country": "U.S.A.",
+        "Id": "US/Mountain",
+        "Name": "Albuquerque, U.S.A."
+    },
+    {
+        "city": "Algiers",
+        "country": "Algeria",
+        "Id": "Africa/Algiers",
+        "Name": "Algiers, Algeria"
+    },
+    {
+        "city": "Amman",
+        "country": "Jordan",
+        "Id": "Asia/Amman",
+        "Name": "Amman, Jordan"
+    },
+    {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "Id": "Europe/Amsterdam",
+        "Name": "Amsterdam, Netherlands"
+    },
+    {
+        "city": "Anadyr",
+        "country": "Russia",
+        "Id": "Asia/Anadyr",
+        "Name": "Anadyr, Russia"
+    },
+    {
+        "city": "Antananarivo",
+        "country": "Madagascar",
+        "Id": "Indian/Antananarivo",
+        "Name": "Antananarivo, Madagascar"
+    },
+    {
+        "city": "Anchorage",
+        "country": "U.S.A.",
+        "Id": "America/Anchorage",
+        "Name": "Anchorage, U.S.A."
+    },
+    {
+        "city": "Ankara",
+        "country": "Turkey",
+        "Id": "Europe/Istanbul",
+        "Name": "Ankara, Turkey"
+    },
+    {
+        "city": "Ashgabat",
+        "country": "Turkmenistan",
+        "Id": "Asia/Ashgabat",
+        "Name": "Ashgabat, Turkmenistan"
+    },
+    {
+        "city": "Asmera",
+        "country": "Eritrea",
+        "Id": "Africa/Asmara",
+        "Name": "Asmera, Eritrea"
+    },
+    {
+        "city": "Astana",
+        "country": "Kazakhstan",
+        "Id": "Asia/Almaty",
+        "Name": "Astana, Kazakhstan"
+    },
+    {
+        "city": "Asunción",
+        "country": "Paraguay",
+        "Id": "America/Asuncion",
+        "Name": "Asunción, Paraguay"
+    },
+    {
+        "city": "Athens",
+        "country": "Greece",
+        "Id": "Europe/Athens",
+        "Name": "Athens, Greece"
+    },
+    {
+        "city": "Atlanta",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Atlanta, U.S.A."
+    },
+    {
+        "city": "Auckland",
+        "country": "New Zealand",
+        "Id": "Pacific/Auckland",
+        "Name": "Auckland, New Zealand"
+    },
+    {
+        "city": "Austin",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Austin, U.S.A."
+    },
+    {
+        "city": "Baghdad",
+        "country": "Iraq",
+        "Id": "Asia/Baghdad",
+        "Name": "Baghdad, Iraq"
+    },
+    {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "Id": "Asia/Baku",
+        "Name": "Baku, Azerbaijan"
+    },
+    {
+        "city": "Baltimore",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Baltimore, U.S.A."
+    },
+    {
+        "city": "Bamako",
+        "country": "Mali",
+        "Id": "Africa/Bamako",
+        "Name": "Bamako, Mali"
+    },
+    {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "Id": "Asia/Bangkok",
+        "Name": "Bangkok, Thailand"
+    },
+    {
+        "city": "Bangui",
+        "country": "Central African Republic",
+        "Id": "Africa/Bangui",
+        "Name": "Bangui, Central African Republic"
+    },
+    {
+        "city": "Barcelona",
+        "country": "Spain",
+        "Id": "Europe/Madrid",
+        "Name": "Barcelona, Spain"
+    },
+    {
+        "city": "Bari",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Bari, Italy"
+    },
+    {
+        "city": "Basse-Terre",
+        "country": "Guadeloupe",
+        "Id": "America/Guadeloupe",
+        "Name": "Basse-Terre, Guadeloupe"
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Beijing, China"
+    },
+    {
+        "city": "Beirut",
+        "country": "Lebanon",
+        "Id": "Asia/Beirut",
+        "Name": "Beirut, Lebanon"
+    },
+    {
+        "city": "Belgrade",
+        "country": "Serbia",
+        "Id": "Europe/Belgrade",
+        "Name": "Belgrade, Serbia"
+    },
+    {
+        "city": "Belize City",
+        "country": "Belize",
+        "Id": "America/Belize",
+        "Name": "Belize City, Belize"
+    },
+    {
+        "city": "Benicia",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Benicia, U.S.A."
+    },
+    {
+        "city": "Berkeley",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Berkeley, U.S.A."
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany",
+        "Id": "Europe/Berlin",
+        "Name": "Berlin, Germany"
+    },
+    {
+        "city": "Bern",
+        "country": "Switzerland",
+        "Id": "Europe/Zurich",
+        "Name": "Bern, Switzerland"
+    },
+    {
+        "city": "Bishkek",
+        "country": "Kyrgyzstan",
+        "Id": "Asia/Bishkek",
+        "Name": "Bishkek, Kyrgyzstan"
+    },
+    {
+        "city": "Bissau",
+        "country": "Guinea-Bissau",
+        "Id": "Africa/Bissau",
+        "Name": "Bissau, Guinea-Bissau"
+    },
+    {
+        "city": "Blacksburg",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Blacksburg, U.S.A."
+    },
+    {
+        "city": "Bogotá",
+        "country": "Colombia",
+        "Id": "America/Bogota",
+        "Name": "Bogotá, Colombia"
+    },
+    {
+        "city": "Bologna",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Bologna, Italy"
+    },
+    {
+        "city": "Boston",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Boston, U.S.A."
+    },
+    {
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "Id": "Europe/Bratislava",
+        "Name": "Bratislava, Slovakia"
+    },
+    {
+        "city": "Brasília",
+        "country": "Brazil",
+        "Id": "America/Sao_Paulo",
+        "Name": "Brasília, Brazil"
+    },
+    {
+        "city": "Bridgetown",
+        "country": "Barbados",
+        "Id": "America/Barbados",
+        "Name": "Bridgetown, Barbados"
+    },
+    {
+        "city": "Brisbane",
+        "country": "Australia",
+        "Id": "Australia/Brisbane",
+        "Name": "Brisbane, Australia"
+    },
+    {
+        "city": "Brussels",
+        "country": "Belgium",
+        "Id": "Europe/Brussels",
+        "Name": "Brussels, Belgium"
+    },
+    {
+        "city": "Bucharest",
+        "country": "Romania",
+        "Id": "Europe/Bucharest",
+        "Name": "Bucharest, Romania"
+    },
+    {
+        "city": "Budapest",
+        "country": "Hungary",
+        "Id": "Europe/Budapest",
+        "Name": "Budapest, Hungary"
+    },
+    {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "Id": "America/Buenos_Aires",
+        "Name": "Buenos Aires, Argentina"
+    },
+    {
+        "city": "Burlingame",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Burlingame, U.S.A."
+    },
+    {
+        "city": "Cairo",
+        "country": "Egypt",
+        "Id": "Africa/Cairo",
+        "Name": "Cairo, Egypt"
+    },
+    {
+        "city": "Calgary",
+        "country": "Canada",
+        "Id": "America/Edmonton",
+        "Name": "Calgary, Canada"
+    },
+    {
+        "city": "Canary Islands",
+        "country": "Spain",
+        "Id": "Atlantic/Canary",
+        "Name": "Canary Islands, Spain"
+    },
+    {
+        "city": "Canberra",
+        "country": "Australia",
+        "Id": "Australia/Canberra",
+        "Name": "Canberra, Australia"
+    },
+    {
+        "city": "Canton",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Canton, China"
+    },
+    {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "Id": "Africa/Johannesburg",
+        "Name": "Cape Town, South Africa"
+    },
+    {
+        "city": "Caracas",
+        "country": "Venezuela",
+        "Id": "America/Caracas",
+        "Name": "Caracas, Venezuela"
+    },
+    {
+        "city": "Cardiff",
+        "country": "Wales",
+        "Id": "Europe/London",
+        "Name": "Cardiff, Wales"
+    },
+    {
+        "city": "Catanzaro",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Catanzaro, Italy"
+    },
+    {
+        "city": "Cayenne",
+        "country": "French Guiana",
+        "Id": "America/Cayenne",
+        "Name": "Cayenne, French Guiana"
+    },
+    {
+        "city": "Charlotte",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Charlotte, U.S.A."
+    },
+    {
+        "city": "Charlotte Amalie",
+        "country": "U.S. Virgin Islands",
+        "Id": "America/St_Thomas",
+        "Name": "Charlotte Amalie, U.S. Virgin Islands"
+    },
+    {
+        "city": "Chennai",
+        "country": "India",
+        "Id": "Asia/Kolkata",
+        "Name": "Chennai, India"
+    },
+    {
+        "city": "Chicago",
+        "country": "U.S.A.",
+        "Id": "America/Chicago",
+        "Name": "Chicago, U.S.A."
+    },
+    {
+        "city": "Chisinau",
+        "country": "Moldova",
+        "Id": "Europe/Chisinau",
+        "Name": "Chisinau, Moldova"
+    },
+    {
+        "city": "Chita",
+        "country": "Russia",
+        "Id": "Asia/Yakutsk",
+        "Name": "Chita, Russia"
+    },
+    {
+        "city": "Cleveland",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Cleveland, U.S.A."
+    },
+    {
+        "city": "Colombo",
+        "country": "Sri Lanka",
+        "Id": "Asia/Colombo",
+        "Name": "Colombo, Sri Lanka"
+    },
+    {
+        "city": "Columbus",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Columbus, U.S.A."
+    },
+    {
+        "city": "Conakry",
+        "country": "Guinea",
+        "Id": "Africa/Conakry",
+        "Name": "Conakry, Guinea"
+    },
+    {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "Id": "Europe/Copenhagen",
+        "Name": "Copenhagen, Denmark"
+    },
+    {
+        "city": "Cupertino",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Cupertino, U.S.A."
+    },
+    {
+        "city": "Cork",
+        "country": "Ireland",
+        "Id": "Europe/Dublin",
+        "Name": "Cork, Ireland"
+    },
+    {
+        "city": "Crotone",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Crotone, Italy"
+    },
+    {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "Id": "Asia/Dhaka",
+        "Name": "Dhaka, Bangladesh"
+    },
+    {
+        "city": "Dakar",
+        "country": "Senegal",
+        "Id": "Africa/Dakar",
+        "Name": "Dakar, Senegal"
+    },
+    {
+        "city": "Dallas",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Dallas, U.S.A."
+    },
+    {
+        "city": "Daly City",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Daly City, U.S.A."
+    },
+    {
+        "city": "Damascus",
+        "country": "Syria",
+        "Id": "Asia/Damascus",
+        "Name": "Damascus, Syria"
+    },
+    {
+        "city": "Dar es Salaam",
+        "country": "Tanzania",
+        "Id": "Africa/Dar_es_Salaam",
+        "Name": "Dar es Salaam, Tanzania"
+    },
+    {
+        "city": "Darwin",
+        "country": "Australia",
+        "Id": "Australia/Darwin",
+        "Name": "Darwin, Australia"
+    },
+    {
+        "city": "Denver",
+        "country": "U.S.A.",
+        "Id": "America/Denver",
+        "Name": "Denver, U.S.A."
+    },
+    {
+        "city": "Detroit",
+        "country": "U.S.A.",
+        "Id": "America/Detroit",
+        "Name": "Detroit, U.S.A."
+    },
+    {
+        "city": "Djibouti",
+        "country": "Djibouti",
+        "Id": "Africa/Djibouti",
+        "Name": "Djibouti, Djibouti"
+    },
+    {
+        "city": "Doha",
+        "country": "Qatar",
+        "Id": "Asia/Qatar",
+        "Name": "Doha, Qatar"
+    },
+    {
+        "city": "Douala",
+        "country": "Cameroon",
+        "Id": "Africa/Douala",
+        "Name": "Douala, Cameroon"
+    },
+    {
+        "city": "Dubai",
+        "country": "U.A.E.",
+        "Id": "Asia/Dubai",
+        "Name": "Dubai, U.A.E."
+    },
+    {
+        "city": "Dublin",
+        "country": "Ireland",
+        "Id": "Europe/Dublin",
+        "Name": "Dublin, Ireland"
+    },
+    {
+        "city": "Dushanbe",
+        "country": "Tajikistan",
+        "Id": "Asia/Dushanbe",
+        "Name": "Dushanbe, Tajikistan"
+    },
+    {
+        "city": "Edinburgh",
+        "country": "Scotland",
+        "Id": "Europe/London",
+        "Name": "Edinburgh, Scotland"
+    },
+    {
+        "city": "El Paso",
+        "country": "U.S.A.",
+        "Id": "US/Mountain",
+        "Name": "El Paso, U.S.A."
+    },
+    {
+        "city": "Florence",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Florence, Italy"
+    },
+    {
+        "city": "Fremont",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Fremont, U.S.A."
+    },
+    {
+        "city": "Fort-de-France",
+        "country": "Martinique",
+        "Id": "America/Martinique",
+        "Name": "Fort-de-France, Martinique"
+    },
+    {
+        "city": "Foster City",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Foster City, U.S.A."
+    },
+    {
+        "city": "Freetown",
+        "country": "Sierra Leone",
+        "Id": "Africa/Freetown",
+        "Name": "Freetown, Sierra Leone"
+    },
+    {
+        "city": "Gaborone",
+        "country": "Botswana",
+        "Id": "Africa/Gaborone",
+        "Name": "Gaborone, Botswana"
+    },
+    {
+        "city": "Galápagos Islands",
+        "country": "Ecuador",
+        "Id": "Pacific/Galapagos",
+        "Name": "Galápagos Islands, Ecuador"
+    },
+    {
+        "city": "Geneva",
+        "country": "Switzerland",
+        "Id": "Europe/Zurich",
+        "Name": "Geneva, Switzerland"
+    },
+    {
+        "city": "Genoa",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Genoa, Italy"
+    },
+    {
+        "city": "Georgetown",
+        "country": "Guyana",
+        "Id": "America/Guyana",
+        "Name": "Georgetown, Guyana"
+    },
+    {
+        "city": "Grytviken",
+        "country": "South Georgia",
+        "Id": "Atlantic/South_Georgia",
+        "Name": "Grytviken, South Georgia"
+    },
+    {
+        "city": "Guam",
+        "country": "Guam",
+        "Id": "Pacific/Guam",
+        "Name": "Guam, Guam"
+    },
+    {
+        "city": "Guatemala City",
+        "country": "Guatemala",
+        "Id": "America/Guatemala",
+        "Name": "Guatemala City, Guatemala"
+    },
+    {
+        "city": "Gustavia",
+        "country": "Saint Barthelemy",
+        "Id": "America/St_Barthelemy",
+        "Name": "Gustavia, Saint Barthelemy"
+    },
+    {
+        "city": "Halifax",
+        "country": "Canada",
+        "Id": "America/Halifax",
+        "Name": "Halifax, Canada"
+    },
+    {
+        "city": "Hamburg",
+        "country": "Germany",
+        "Id": "Europe/Berlin",
+        "Name": "Hamburg, Germany"
+    },
+    {
+        "city": "Easter Island",
+        "country": "Chile",
+        "Id": "Pacific/Easter",
+        "Name": "Easter Island, Chile"
+    },
+    {
+        "city": "Hanoi",
+        "country": "Vietnam",
+        "Id": "Asia/Saigon",
+        "Name": "Hanoi, Vietnam"
+    },
+    {
+        "city": "Harare",
+        "country": "Zimbabwe",
+        "Id": "Africa/Harare",
+        "Name": "Harare, Zimbabwe"
+    },
+    {
+        "city": "Havana",
+        "country": "Cuba",
+        "Id": "America/Havana",
+        "Name": "Havana, Cuba"
+    },
+    {
+        "city": "Healdsburg",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Healdsburg, U.S.A."
+    },
+    {
+        "city": "Helsinki",
+        "country": "Finland",
+        "Id": "Europe/Helsinki",
+        "Name": "Helsinki, Finland"
+    },
+    {
+        "city": "Hobart",
+        "country": "Australia",
+        "Id": "Australia/Hobart",
+        "Name": "Hobart, Australia"
+    },
+    {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "Id": "Asia/Hong_Kong",
+        "Name": "Hong Kong, Hong Kong"
+    },
+    {
+        "city": "Honolulu",
+        "country": "U.S.A.",
+        "Id": "Pacific/Honolulu",
+        "Name": "Honolulu, U.S.A."
+    },
+    {
+        "city": "Houston",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Houston, U.S.A."
+    },
+    {
+        "city": "Indianapolis",
+        "country": "U.S.A.",
+        "Id": "America/Indianapolis",
+        "Name": "Indianapolis, U.S.A."
+    },
+    {
+        "city": "Irkutsk",
+        "country": "Russia",
+        "Id": "Asia/Irkutsk",
+        "Name": "Irkutsk, Russia"
+    },
+    {
+        "city": "Islamabad",
+        "country": "Pakistan",
+        "Id": "Asia/Karachi",
+        "Name": "Islamabad, Pakistan"
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "Id": "Europe/Istanbul",
+        "Name": "Istanbul, Turkey"
+    },
+    {
+        "city": "Jakarta",
+        "country": "Indonesia",
+        "Id": "Asia/Jakarta",
+        "Name": "Jakarta, Indonesia"
+    },
+    {
+        "city": "Jerusalem",
+        "country": "",
+        "Id": "Asia/Jerusalem",
+        "Name": "Jerusalem"
+    },
+    {
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "Id": "Africa/Johannesburg",
+        "Name": "Johannesburg, South Africa"
+    },
+    {
+        "city": "Kabul",
+        "country": "Afghanistan",
+        "Id": "Asia/Kabul",
+        "Name": "Kabul, Afghanistan"
+    },
+    {
+        "city": "Kaliningrad",
+        "country": "Russia",
+        "Id": "Europe/Kaliningrad",
+        "Name": "Kaliningrad, Russia"
+    },
+    {
+        "city": "Kampala",
+        "country": "Uganda",
+        "Id": "Africa/Kampala",
+        "Name": "Kampala, Uganda"
+    },
+    {
+        "city": "Kathmandu",
+        "country": "Nepal",
+        "Id": "Asia/Katmandu",
+        "Name": "Kathmandu, Nepal"
+    },
+    {
+        "city": "Khartoum",
+        "country": "Sudan",
+        "Id": "Africa/Khartoum",
+        "Name": "Khartoum, Sudan"
+    },
+    {
+        "city": "Kiev",
+        "country": "Ukraine",
+        "Id": "Europe/Kiev",
+        "Name": "Kiev, Ukraine"
+    },
+    {
+        "city": "Kingston",
+        "country": "Jamaica",
+        "Id": "America/Jamaica",
+        "Name": "Kingston, Jamaica"
+    },
+    {
+        "city": "Kinshasa",
+        "country": "Democratic Republic of the Congo",
+        "Id": "Africa/Kinshasa",
+        "Name": "Kinshasa, Democratic Republic of the Congo"
+    },
+    {
+        "city": "Knoxville",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Knoxville, U.S.A."
+    },
+    {
+        "city": "Kolkata",
+        "country": "India",
+        "Id": "Asia/Kolkata",
+        "Name": "Kolkata, India"
+    },
+    {
+        "city": "Krasnoyarsk",
+        "country": "Russia",
+        "Id": "Asia/Krasnoyarsk",
+        "Name": "Krasnoyarsk, Russia"
+    },
+    {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "Id": "Asia/Kuala_Lumpur",
+        "Name": "Kuala Lumpur, Malaysia"
+    },
+    {
+        "city": "Kuwait",
+        "country": "Kuwait",
+        "Id": "Asia/Kuwait",
+        "Name": "Kuwait, Kuwait"
+    },
+    {
+        "city": "La Paz",
+        "country": "Bolivia",
+        "Id": "America/La_Paz",
+        "Name": "La Paz, Bolivia"
+    },
+    {
+        "city": "Lagos",
+        "country": "Nigeria",
+        "Id": "Africa/Lagos",
+        "Name": "Lagos, Nigeria"
+    },
+    {
+        "city": "Las Vegas",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Las Vegas, U.S.A."
+    },
+    {
+        "city": "Lima",
+        "country": "Peru",
+        "Id": "America/Lima",
+        "Name": "Lima, Peru"
+    },
+    {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "Id": "Europe/Lisbon",
+        "Name": "Lisbon, Portugal"
+    },
+    {
+        "city": "Little Rock",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Little Rock, U.S.A."
+    },
+    {
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "Id": "Europe/Ljubljana",
+        "Name": "Ljubljana, Slovenia"
+    },
+    {
+        "city": "London",
+        "country": "England",
+        "Id": "Europe/London",
+        "Name": "London, England"
+    },
+    {
+        "city": "Los Altos",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Los Altos, U.S.A."
+    },
+    {
+        "city": "Los Angeles",
+        "country": "U.S.A.",
+        "Id": "America/Los_Angeles",
+        "Name": "Los Angeles, U.S.A."
+    },
+    {
+        "city": "Los Gatos",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Los Gatos, U.S.A."
+    },
+    {
+        "city": "Louisville",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Louisville, U.S.A."
+    },
+    {
+        "city": "Luanda",
+        "country": "Angola",
+        "Id": "Africa/Luanda",
+        "Name": "Luanda, Angola"
+    },
+    {
+        "city": "Lusaka",
+        "country": "Zambia",
+        "Id": "Africa/Lusaka",
+        "Name": "Lusaka, Zambia"
+    },
+    {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "Id": "Europe/Luxembourg",
+        "Name": "Luxembourg, Luxembourg"
+    },
+    {
+        "city": "Macau",
+        "country": "Macau",
+        "Id": "Asia/Macau",
+        "Name": "Macau, Macau"
+    },
+    {
+        "city": "Madison",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Madison, U.S.A."
+    },
+    {
+        "city": "Madrid",
+        "country": "Spain",
+        "Id": "Europe/Madrid",
+        "Name": "Madrid, Spain"
+    },
+    {
+        "city": "Malabo",
+        "country": "Equatorial Guinea",
+        "Id": "Africa/Malabo",
+        "Name": "Malabo, Equatorial Guinea"
+    },
+    {
+        "city": "Male",
+        "country": "Maldives",
+        "Id": "Indian/Maldives",
+        "Name": "Male, Maldives"
+    },
+    {
+        "city": "Managua",
+        "country": "Nicaragua",
+        "Id": "America/Managua",
+        "Name": "Managua, Nicaragua"
+    },
+    {
+        "city": "Manama",
+        "country": "Bahrain",
+        "Id": "Asia/Bahrain",
+        "Name": "Manama, Bahrain"
+    },
+    {
+        "city": "Marigot",
+        "country": "Saint Martin",
+        "Id": "America/Marigot",
+        "Name": "Marigot, Saint Martin"
+    },
+    {
+        "city": "Manila",
+        "country": "Philippines",
+        "Id": "Asia/Manila",
+        "Name": "Manila, Philippines"
+    },
+    {
+        "city": "Maputo",
+        "country": "Mozambique",
+        "Id": "Africa/Maputo",
+        "Name": "Maputo, Mozambique"
+    },
+    {
+        "city": "Mecca",
+        "country": "Saudi Arabia",
+        "Id": "Asia/Riyadh",
+        "Name": "Mecca, Saudi Arabia"
+    },
+    {
+        "city": "Melbourne",
+        "country": "Australia",
+        "Id": "Australia/Melbourne",
+        "Name": "Melbourne, Australia"
+    },
+    {
+        "city": "Memphis",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Memphis, U.S.A."
+    },
+    {
+        "city": "Menlo Park",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Menlo Park, U.S.A."
+    },
+    {
+        "city": "Messina",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Messina, Italy"
+    },
+    {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Mexico City, Mexico"
+    },
+    {
+        "city": "Miami",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Miami, U.S.A."
+    },
+    {
+        "city": "Milan",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Milan, Italy"
+    },
+    {
+        "city": "Milbank",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Milbank, U.S.A."
+    },
+    {
+        "city": "Milwaukee",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Milwaukee, U.S.A."
+    },
+    {
+        "city": "Minneapolis",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Minneapolis, U.S.A."
+    },
+    {
+        "city": "Minsk",
+        "country": "Belarus",
+        "Id": "Europe/Minsk",
+        "Name": "Minsk, Belarus"
+    },
+    {
+        "city": "Magadan",
+        "country": "Russia",
+        "Id": "Asia/Magadan",
+        "Name": "Magadan, Russia"
+    },
+    {
+        "city": "Mogadishu",
+        "country": "Somalia",
+        "Id": "Africa/Mogadishu",
+        "Name": "Mogadishu, Somalia"
+    },
+    {
+        "city": "Monrovia",
+        "country": "Liberia",
+        "Id": "Africa/Monrovia",
+        "Name": "Monrovia, Liberia"
+    },
+    {
+        "city": "Montevideo",
+        "country": "Uruguay",
+        "Id": "America/Montevideo",
+        "Name": "Montevideo, Uruguay"
+    },
+    {
+        "city": "Montpelier",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Montpelier, U.S.A."
+    },
+    {
+        "city": "Montreal",
+        "country": "Canada",
+        "Id": "America/Montreal",
+        "Name": "Montreal, Canada"
+    },
+    {
+        "city": "Moscow",
+        "country": "Russia",
+        "Id": "Europe/Moscow",
+        "Name": "Moscow, Russia"
+    },
+    {
+        "city": "Monterey",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Monterey, U.S.A."
+    },
+    {
+        "city": "Mountain View",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Mountain View, U.S.A."
+    },
+    {
+        "city": "Mumbai",
+        "country": "India",
+        "Id": "Asia/Kolkata",
+        "Name": "Mumbai, India"
+    },
+    {
+        "city": "Munich",
+        "country": "Germany",
+        "Id": "Europe/Berlin",
+        "Name": "Munich, Germany"
+    },
+    {
+        "city": "Muscat",
+        "country": "Oman",
+        "Id": "Asia/Muscat",
+        "Name": "Muscat, Oman"
+    },
+    {
+        "city": "Napa",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Napa, U.S.A."
+    },
+    {
+        "city": "Naples",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Naples, Italy"
+    },
+    {
+        "city": "Nairobi",
+        "country": "Kenya",
+        "Id": "Africa/Nairobi",
+        "Name": "Nairobi, Kenya"
+    },
+    {
+        "city": "Naters",
+        "country": "Switzerland",
+        "Id": "Europe/Zurich",
+        "Name": "Naters, Switzerland"
+    },
+    {
+        "city": "Ndjamena",
+        "country": "Chad",
+        "Id": "Africa/Ndjamena",
+        "Name": "Ndjamena, Chad"
+    },
+    {
+        "city": "New Delhi",
+        "country": "India",
+        "Id": "Asia/Kolkata",
+        "Name": "New Delhi, India"
+    },
+    {
+        "city": "New Orleans",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "New Orleans, U.S.A."
+    },
+    {
+        "city": "New York",
+        "country": "U.S.A.",
+        "Id": "America/New_York",
+        "Name": "New York, U.S.A."
+    },
+    {
+        "city": "Niamey",
+        "country": "Niger",
+        "Id": "Africa/Niamey",
+        "Name": "Niamey, Niger"
+    },
+    {
+        "city": "Nouakchott",
+        "country": "Mauritania",
+        "Id": "Africa/Nouakchott",
+        "Name": "Nouakchott, Mauritania"
+    },
+    {
+        "city": "Noumea",
+        "country": "New Caledonia",
+        "Id": "Pacific/Noumea",
+        "Name": "Noumea, New Caledonia"
+    },
+    {
+        "city": "Novato",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Novato, U.S.A."
+    },
+    {
+        "city": "Novosibirsk",
+        "country": "Russia",
+        "Id": "Asia/Novosibirsk",
+        "Name": "Novosibirsk, Russia"
+    },
+    {
+        "city": "Nukuʻalofa",
+        "country": "Tonga",
+        "Id": "Pacific/Tongatapu",
+        "Name": "Nukuʻalofa, Tonga"
+    },
+    {
+        "city": "Nuuk",
+        "country": "Greenland",
+        "Id": "America/Godthab",
+        "Name": "Nuuk, Greenland"
+    },
+    {
+        "city": "Oakland",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Oakland, U.S.A."
+    },
+    {
+        "city": "Oklahoma City",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Oklahoma City, U.S.A."
+    },
+    {
+        "city": "Omaha",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Omaha, U.S.A."
+    },
+    {
+        "city": "Omsk",
+        "country": "Russia",
+        "Id": "Asia/Omsk",
+        "Name": "Omsk, Russia"
+    },
+    {
+        "city": "Osaka",
+        "country": "Japan",
+        "Id": "Asia/Tokyo",
+        "Name": "Osaka, Japan"
+    },
+    {
+        "city": "Oslo",
+        "country": "Norway",
+        "Id": "Europe/Oslo",
+        "Name": "Oslo, Norway"
+    },
+    {
+        "city": "Ottawa",
+        "country": "Canada",
+        "Id": "America/Toronto",
+        "Name": "Ottawa, Canada"
+    },
+    {
+        "city": "Ouagadougou",
+        "country": "Burkina Faso",
+        "Id": "Africa/Ouagadougou",
+        "Name": "Ouagadougou, Burkina Faso"
+    },
+    {
+        "city": "Pacifica",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Pacifica, U.S.A."
+    },
+    {
+        "city": "Pago Pago",
+        "country": "American Samoa",
+        "Id": "Pacific/Pago_Pago",
+        "Name": "Pago Pago, American Samoa"
+    },
+    {
+        "city": "Palermo",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Palermo, Italy"
+    },
+    {
+        "city": "Palo Alto",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Palo Alto, U.S.A."
+    },
+    {
+        "city": "Panama City",
+        "country": "Panama",
+        "Id": "America/Panama",
+        "Name": "Panama City, Panama"
+    },
+    {
+        "city": "Tahiti",
+        "country": "French Polynesia",
+        "Id": "Pacific/Tahiti",
+        "Name": "Tahiti, French Polynesia"
+    },
+    {
+        "city": "Paramaribo",
+        "country": "Surinam",
+        "Id": "America/Paramaribo",
+        "Name": "Paramaribo, Surinam"
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "Id": "Europe/Paris",
+        "Name": "Paris, France"
+    },
+    {
+        "city": "Perm",
+        "country": "Russia",
+        "Id": "Asia/Yekaterinburg",
+        "Name": "Perm, Russia"
+    },
+    {
+        "city": "Perth",
+        "country": "Australia",
+        "Id": "Australia/Perth",
+        "Name": "Perth, Australia"
+    },
+    {
+        "city": "Petaluma",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Petaluma, U.S.A."
+    },
+    {
+        "city": "Philadelphia",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Philadelphia, U.S.A."
+    },
+    {
+        "city": "Phnom Penh",
+        "country": "Cambodia",
+        "Id": "Asia/Phnom_Penh",
+        "Name": "Phnom Penh, Cambodia"
+    },
+    {
+        "city": "Phoenix",
+        "country": "U.S.A.",
+        "Id": "America/Phoenix",
+        "Name": "Phoenix, U.S.A."
+    },
+    {
+        "city": "Pittsburgh",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Pittsburgh, U.S.A."
+    },
+    {
+        "city": "Pleasanton",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Pleasanton, U.S.A."
+    },
+    {
+        "city": "Podgorica",
+        "country": "Montenegro",
+        "Id": "Europe/Podgorica",
+        "Name": "Podgorica, Montenegro"
+    },
+    {
+        "city": "Ponta Delgada",
+        "country": "Portugal",
+        "Id": "Atlantic/Azores",
+        "Name": "Ponta Delgada, Portugal"
+    },
+    {
+        "city": "Port Louis",
+        "country": "Mauritius",
+        "Id": "Indian/Mauritius",
+        "Name": "Port Louis, Mauritius"
+    },
+    {
+        "city": "Port-au-Prince",
+        "country": "Haiti",
+        "Id": "America/Port-au-Prince",
+        "Name": "Port-au-Prince, Haiti"
+    },
+    {
+        "city": "Portland",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Portland, U.S.A."
+    },
+    {
+        "city": "Prague",
+        "country": "Czech Republic",
+        "Id": "Europe/Prague",
+        "Name": "Prague, Czech Republic"
+    },
+    {
+        "city": "Pyongyang",
+        "country": "North Korea",
+        "Id": "Asia/Pyongyang",
+        "Name": "Pyongyang, North Korea"
+    },
+    {
+        "city": "Quito",
+        "country": "Ecuador",
+        "Id": "America/Guayaquil",
+        "Name": "Quito, Ecuador"
+    },
+    {
+        "city": "Rabat",
+        "country": "Morocco",
+        "Id": "Africa/Casablanca",
+        "Name": "Rabat, Morocco"
+    },
+    {
+        "city": "Rangoon",
+        "country": "Burma",
+        "Id": "Asia/Rangoon",
+        "Name": "Rangoon, Burma"
+    },
+    {
+        "city": "Recife",
+        "country": "Brazil",
+        "Id": "America/Recife",
+        "Name": "Recife, Brazil"
+    },
+    {
+        "city": "Redwood City",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Redwood City, U.S.A."
+    },
+    {
+        "city": "Regina",
+        "country": "Canada",
+        "Id": "America/Regina",
+        "Name": "Regina, Canada"
+    },
+    {
+        "city": "Reykjavik",
+        "country": "Iceland",
+        "Id": "Atlantic/Reykjavik",
+        "Name": "Reykjavik, Iceland"
+    },
+    {
+        "city": "Riga",
+        "country": "Latvia",
+        "Id": "Europe/Riga",
+        "Name": "Riga, Latvia"
+    },
+    {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "Id": "America/Sao_Paulo",
+        "Name": "Rio de Janeiro, Brazil"
+    },
+    {
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "Id": "Asia/Riyadh",
+        "Name": "Riyadh, Saudi Arabia"
+    },
+    {
+        "city": "Rome",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Rome, Italy"
+    },
+    {
+        "city": "Saint-Denis",
+        "country": "Reunion Island",
+        "Id": "Indian/Reunion",
+        "Name": "Saint-Denis, Reunion Island"
+    },
+    {
+        "city": "Salt Lake City",
+        "country": "U.S.A.",
+        "Id": "US/Mountain",
+        "Name": "Salt Lake City, U.S.A."
+    },
+    {
+        "city": "Samara",
+        "country": "Russia",
+        "Id": "Europe/Samara",
+        "Name": "Samara, Russia"
+    },
+    {
+        "city": "San Diego",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Diego, U.S.A."
+    },
+    {
+        "city": "San Antonio",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "San Antonio, U.S.A."
+    },
+    {
+        "city": "San Bruno",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Bruno, U.S.A."
+    },
+    {
+        "city": "San Carlos",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Carlos, U.S.A."
+    },
+    {
+        "city": "San Francisco",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Francisco, U.S.A."
+    },
+    {
+        "city": "San Jose",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Jose, U.S.A."
+    },
+    {
+        "city": "San José",
+        "country": "Costa Rica",
+        "Id": "America/Costa_Rica",
+        "Name": "San José, Costa Rica"
+    },
+    {
+        "city": "San Juan",
+        "country": "Puerto Rico",
+        "Id": "America/Puerto_Rico",
+        "Name": "San Juan, Puerto Rico"
+    },
+    {
+        "city": "San Leandro",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Leandro, U.S.A."
+    },
+    {
+        "city": "San Salvador",
+        "country": "El Salvador",
+        "Id": "America/El_Salvador",
+        "Name": "San Salvador, El Salvador"
+    },
+    {
+        "city": "San Marino",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "San Marino, Italy"
+    },
+    {
+        "city": "San Mateo",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Mateo, U.S.A."
+    },
+    {
+        "city": "San Pablo",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Pablo, U.S.A."
+    },
+    {
+        "city": "San Rafael",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Rafael, U.S.A."
+    },
+    {
+        "city": "San Ramon",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "San Ramon, U.S.A."
+    },
+    {
+        "city": "Santa Clara",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Santa Clara, U.S.A."
+    },
+    {
+        "city": "Santa Cruz",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Santa Cruz, U.S.A."
+    },
+    {
+        "city": "Sanaa",
+        "country": "Yemen",
+        "Id": "Asia/Aden",
+        "Name": "Sanaa, Yemen"
+    },
+    {
+        "city": "Santiago",
+        "country": "Chile",
+        "Id": "America/Santiago",
+        "Name": "Santiago, Chile"
+    },
+    {
+        "city": "Santo Domingo",
+        "country": "Dominican Republic",
+        "Id": "America/Santo_Domingo",
+        "Name": "Santo Domingo, Dominican Republic"
+    },
+    {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "Id": "America/Sao_Paulo",
+        "Name": "São Paulo, Brazil"
+    },
+    {
+        "city": "Seattle",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Seattle, U.S.A."
+    },
+    {
+        "city": "Seoul",
+        "country": "South Korea",
+        "Id": "Asia/Seoul",
+        "Name": "Seoul, South Korea"
+    },
+    {
+        "city": "Shanghai",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Shanghai, China"
+    },
+    {
+        "city": "Shenzhen",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Shenzhen, China"
+    },
+    {
+        "city": "Singapore",
+        "country": "Singapore",
+        "Id": "Asia/Singapore",
+        "Name": "Singapore, Singapore"
+    },
+    {
+        "city": "Sioux Falls",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Sioux Falls, U.S.A."
+    },
+    {
+        "city": "Skopje",
+        "country": "Macedonia",
+        "Id": "Europe/Skopje",
+        "Name": "Skopje, Macedonia"
+    },
+    {
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "Id": "Europe/Sofia",
+        "Name": "Sofia, Bulgaria"
+    },
+    {
+        "city": "St. John's",
+        "country": "Canada",
+        "Id": "America/St_Johns",
+        "Name": "St. John's, Canada"
+    },
+    {
+        "city": "St. Louis",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "St. Louis, U.S.A."
+    },
+    {
+        "city": "St. Petersburg",
+        "country": "Russia",
+        "Id": "Europe/Moscow",
+        "Name": "St. Petersburg, Russia"
+    },
+    {
+        "city": "Sunnyvale",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Sunnyvale, U.S.A."
+    },
+    {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "Id": "Europe/Stockholm",
+        "Name": "Stockholm, Sweden"
+    },
+    {
+        "city": "Suva",
+        "country": "Fiji",
+        "Id": "Pacific/Fiji",
+        "Name": "Suva, Fiji"
+    },
+    {
+        "city": "Sydney",
+        "country": "Australia",
+        "Id": "Australia/Sydney",
+        "Name": "Sydney, Australia"
+    },
+    {
+        "city": "Taipei",
+        "country": "",
+        "Id": "Asia/Taipei",
+        "Name": "Taipei"
+    },
+    {
+        "city": "Tallinn",
+        "country": "Estonia",
+        "Id": "Europe/Tallinn",
+        "Name": "Tallinn, Estonia"
+    },
+    {
+        "city": "Tashkent",
+        "country": "Uzbekistan",
+        "Id": "Asia/Tashkent",
+        "Name": "Tashkent, Uzbekistan"
+    },
+    {
+        "city": "Tegucigalpa",
+        "country": "Honduras",
+        "Id": "America/Tegucigalpa",
+        "Name": "Tegucigalpa, Honduras"
+    },
+    {
+        "city": "Tehran",
+        "country": "Iran",
+        "Id": "Asia/Tehran",
+        "Name": "Tehran, Iran"
+    },
+    {
+        "city": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "Id": "Asia/Saigon",
+        "Name": "Ho Chi Minh City, Vietnam"
+    },
+    {
+        "city": "Tianjin",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Tianjin, China"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "Id": "Asia/Tokyo",
+        "Name": "Tokyo, Japan"
+    },
+    {
+        "city": "Toronto",
+        "country": "Canada",
+        "Id": "America/Toronto",
+        "Name": "Toronto, Canada"
+    },
+    {
+        "city": "Tréhet",
+        "country": "France",
+        "Id": "Europe/Paris",
+        "Name": "Tréhet, France"
+    },
+    {
+        "city": "Tripoli",
+        "country": "Libya",
+        "Id": "Africa/Tripoli",
+        "Name": "Tripoli, Libya"
+    },
+    {
+        "city": "Tunis",
+        "country": "Tunisia",
+        "Id": "Africa/Tunis",
+        "Name": "Tunis, Tunisia"
+    },
+    {
+        "city": "Turin",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Turin, Italy"
+    },
+    {
+        "city": "Ulaanbaatar",
+        "country": "Mongolia",
+        "Id": "Asia/Ulaanbaatar",
+        "Name": "Ulaanbaatar, Mongolia"
+    },
+    {
+        "city": "UTC",
+        "country": "",
+        "Id": "UTC",
+        "Name": "UTC, Ivory Coast"
+    },
+    {
+        "city": "Vaduz",
+        "country": "Liechtenstein",
+        "Id": "Europe/Vaduz",
+        "Name": "Vaduz, Liechtenstein"
+    },
+    {
+        "city": "Vallejo",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Vallejo, U.S.A."
+    },
+    {
+        "city": "Valletta",
+        "country": "Malta",
+        "Id": "Europe/Malta",
+        "Name": "Valletta, Malta"
+    },
+    {
+        "city": "Vancouver",
+        "country": "Canada",
+        "Id": "America/Vancouver",
+        "Name": "Vancouver, Canada"
+    },
+    {
+        "city": "Verona",
+        "country": "Italy",
+        "Id": "Europe/Rome",
+        "Name": "Verona, Italy"
+    },
+    {
+        "city": "Victoria",
+        "country": "Seychelles",
+        "Id": "Indian/Mahe",
+        "Name": "Victoria, Seychelles"
+    },
+    {
+        "city": "Vienna",
+        "country": "Austria",
+        "Id": "Europe/Vienna",
+        "Name": "Vienna, Austria"
+    },
+    {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "Id": "Europe/Vilnius",
+        "Name": "Vilnius, Lithuania"
+    },
+    {
+        "city": "Vladivostok",
+        "country": "Russia",
+        "Id": "Asia/Vladivostok",
+        "Name": "Vladivostok, Russia"
+    },
+    {
+        "city": "Volgograd",
+        "country": "Russia",
+        "Id": "Europe/Moscow",
+        "Name": "Volgograd, Russia"
+    },
+    {
+        "city": "Walnut Creek",
+        "country": "U.S.A.",
+        "Id": "US/Pacific",
+        "Name": "Walnut Creek, U.S.A."
+    },
+    {
+        "city": "Warsaw",
+        "country": "Poland",
+        "Id": "Europe/Warsaw",
+        "Name": "Warsaw, Poland"
+    },
+    {
+        "city": "Washington, D.C.",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Washington, D.C., U.S.A."
+    },
+    {
+        "city": "Wellington",
+        "country": "New Zealand",
+        "Id": "Pacific/Auckland",
+        "Name": "Wellington, New Zealand"
+    },
+    {
+        "city": "Winnipeg",
+        "country": "Canada",
+        "Id": "America/Winnipeg",
+        "Name": "Winnipeg, Canada"
+    },
+    {
+        "city": "Yakutsk",
+        "country": "Russia",
+        "Id": "Asia/Yakutsk",
+        "Name": "Yakutsk, Russia"
+    },
+    {
+        "city": "Yamoussoukro",
+        "country": "Ivory Coast",
+        "Id": "Africa/Abidjan",
+        "Name": "Yamoussoukro, Ivory Coast"
+    },
+    {
+        "city": "Yaoundé",
+        "country": "Cameroon",
+        "Id": "Africa/Douala",
+        "Name": "Yaoundé, Cameroon"
+    },
+    {
+        "city": "Yekaterinburg",
+        "country": "Russia",
+        "Id": "Asia/Yekaterinburg",
+        "Name": "Yekaterinburg, Russia"
+    },
+    {
+        "city": "Yerevan",
+        "country": "Armenia",
+        "Id": "Asia/Yerevan",
+        "Name": "Yerevan, Armenia"
+    },
+    {
+        "city": "Zagreb",
+        "country": "Croatia",
+        "Id": "Europe/Zagreb",
+        "Name": "Zagreb, Croatia"
+    },
+    {
+        "city": "Zurich",
+        "country": "Switzerland",
+        "Id": "Europe/Zurich",
+        "Name": "Zurich, Switzerland"
+    },
+    {
+        "city": "Decatur",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Decatur, U.S.A."
+    },
+    {
+        "city": "Vientiane",
+        "country": "Laos",
+        "Id": "Asia/Bangkok",
+        "Name": "Vientiane, Laos"
+    },
+    {
+        "city": "Lomé",
+        "country": "Togo",
+        "Id": "Africa/Accra",
+        "Name": "Lomé, Togo"
+    },
+    {
+        "city": "Brazzaville",
+        "country": "Congo",
+        "Id": "Africa/Ndjamena",
+        "Name": "Brazzaville, Congo"
+    },
+    {
+        "city": "Mbabane",
+        "country": "Swaziland",
+        "Id": "Africa/Mbabane",
+        "Name": "Mbabane, Swaziland"
+    },
+    {
+        "city": "Maseru",
+        "country": "Lesotho",
+        "Id": "Africa/Maseru",
+        "Name": "Maseru, Lesotho"
+    },
+    {
+        "city": "Andorra la Vella",
+        "country": "Andorra",
+        "Id": "Europe/Andorra",
+        "Name": "Andorra la Vella, Andorra"
+    },
+    {
+        "city": "Rio Branco",
+        "country": "Brazil",
+        "Id": "America/La_Paz",
+        "Name": "Rio Branco, Brazil"
+    },
+    {
+        "city": "Fernando de Noronha",
+        "country": "Brazil",
+        "Id": "America/Noronha",
+        "Name": "Fernando de Noronha, Brazil"
+    },
+    {
+        "city": "Pristina",
+        "country": "Kosovo",
+        "Id": "Europe/Belgrade",
+        "Name": "Pristina, Kosovo"
+    },
+    {
+        "city": "Thimphu",
+        "country": "Bhutan",
+        "Id": "Asia/Dhaka",
+        "Name": "Thimphu, Bhutan"
+    },
+    {
+        "city": "Berkeley Heights",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Berkeley Heights, U.S.A."
+    },
+    {
+        "city": "Acton",
+        "country": "U.S.A.",
+        "Id": "US/Eastern",
+        "Name": "Acton, U.S.A."
+    },
+    {
+        "city": "Thessaloniki",
+        "country": "Greece",
+        "Id": "Europe/Athens",
+        "Name": "Thessaloniki, Greece"
+    },
+    {
+        "city": "Heraklion",
+        "country": "Greece",
+        "Id": "Europe/Athens",
+        "Name": "Heraklion, Greece"
+    },
+    {
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "Id": "Asia/Jerusalem",
+        "Name": "Tel Aviv, Israel"
+    },
+    {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "Id": "Europe/Berlin",
+        "Name": "Frankfurt, Germany"
+    },
+    {
+        "city": "Fort St. John",
+        "country": "Canada",
+        "Id": "America/Dawson_Creek",
+        "Name": "Fort St. John, Canada"
+    },
+    {
+        "city": "Yangon",
+        "country": "Burma",
+        "Id": "Asia/Rangoon",
+        "Name": "Yangon, Burma"
+    },
+    {
+        "city": "Matamoros",
+        "country": "Mexico",
+        "Id": "America/Matamoros",
+        "Name": "Matamoros, Mexico"
+    },
+    {
+        "city": "Ojinaga",
+        "country": "Mexico",
+        "Id": "America/Ojinaga",
+        "Name": "Ojinaga, Mexico"
+    },
+    {
+        "city": "Santa Isabel",
+        "country": "Mexico",
+        "Id": "America/Santa_Isabel",
+        "Name": "Santa Isabel, Mexico"
+    },
+    {
+        "city": "Sarajevo",
+        "country": "Bosnia and Herzegovina",
+        "Id": "Europe/Sarajevo",
+        "Name": "Sarajevo, Bosnia and Herzegovina"
+    },
+    {
+        "city": "Salzburg",
+        "country": "Austria",
+        "Id": "Europe/Vienna",
+        "Name": "Salzburg, Austria"
+    },
+    {
+        "city": "Lyon",
+        "country": "France",
+        "Id": "Europe/Paris",
+        "Name": "Lyon, France"
+    },
+    {
+        "city": "Marseille",
+        "country": "France",
+        "Id": "Europe/Paris",
+        "Name": "Marseille, France"
+    },
+    {
+        "city": "Tbilisi",
+        "country": "Georgia",
+        "Id": "Asia/Tbilisi",
+        "Name": "Tbilisi, Georgia"
+    },
+    {
+        "city": "Saskatoon",
+        "country": "Canada",
+        "Id": "America/Regina",
+        "Name": "Saskatoon, Canada"
+    },
+    {
+        "city": "Tórshavn",
+        "country": "Faroe Islands",
+        "Id": "Atlantic/Faroe",
+        "Name": "Tórshavn, Faroe Islands"
+    },
+    {
+        "city": "Waitangi",
+        "country": "New Zealand",
+        "Id": "Pacific/Chatham",
+        "Name": "Waitangi, New Zealand"
+    },
+    {
+        "city": "Makassar",
+        "country": "Indonesia",
+        "Id": "Asia/Makassar",
+        "Name": "Makassar, Indonesia"
+    },
+    {
+        "city": "Jayapura",
+        "country": "Indonesia",
+        "Id": "Asia/Jayapura",
+        "Name": "Jayapura, Indonesia"
+    },
+    {
+        "city": "Antwerp",
+        "country": "Belgium",
+        "Id": "Europe/Brussels",
+        "Name": "Antwerp, Belgium"
+    },
+    {
+        "city": "Alexandria",
+        "country": "Egypt",
+        "Id": "Africa/Cairo",
+        "Name": "Alexandria, Egypt"
+    },
+    {
+        "city": "Chiang Mai",
+        "country": "Thailand",
+        "Id": "Asia/Bangkok",
+        "Name": "Chiang Mai, Thailand"
+    },
+    {
+        "city": "Hamilton",
+        "country": "Bermuda",
+        "Id": "Atlantic/Bermuda",
+        "Name": "Hamilton, Bermuda"
+    },
+    {
+        "city": "Kraków",
+        "country": "Poland",
+        "Id": "Europe/Warsaw",
+        "Name": "Kraków, Poland"
+    },
+    {
+        "city": "Tirana",
+        "country": "Albania",
+        "Id": "Europe/Tirane",
+        "Name": "Tirana, Albania"
+    },
+    {
+        "city": "Windhoek",
+        "country": "Namibia",
+        "Id": "Africa/Windhoek",
+        "Name": "Windhoek, Namibia"
+    },
+    {
+        "city": "Nicosia",
+        "country": "Cyprus",
+        "Id": "Asia/Nicosia",
+        "Name": "Nicosia, Cyprus"
+    },
+    {
+        "city": "Apia",
+        "country": "Samoa",
+        "Id": "Pacific/Apia",
+        "Name": "Apia, Samoa"
+    },
+    {
+        "city": "Salvador",
+        "country": "Brazil",
+        "Id": "America/Bahia",
+        "Name": "Salvador, Brazil"
+    },
+    {
+        "city": "St. John's",
+        "country": "Antigua and Barbuda",
+        "Id": "America/Antigua",
+        "Name": "St. John's, Antigua and Barbuda"
+    },
+    {
+        "city": "The Valley",
+        "country": "Anguilla",
+        "Id": "America/Anguilla",
+        "Name": "The Valley, Anguilla"
+    },
+    {
+        "city": "McMurdo Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/McMurdo",
+        "Name": "McMurdo Station, Antarctica"
+    },
+    {
+        "city": "Amundsen-Scott Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/South_Pole",
+        "Name": "Amundsen-Scott Station, Antarctica"
+    },
+    {
+        "city": "Rothera Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Rothera",
+        "Name": "Rothera Station, Antarctica"
+    },
+    {
+        "city": "Palmer Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Palmer",
+        "Name": "Palmer Station, Antarctica"
+    },
+    {
+        "city": "Mawson Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Mawson",
+        "Name": "Mawson Station, Antarctica"
+    },
+    {
+        "city": "Davis Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Davis",
+        "Name": "Davis Station, Antarctica"
+    },
+    {
+        "city": "Casey Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Casey",
+        "Name": "Casey Station, Antarctica"
+    },
+    {
+        "city": "Vostok Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Vostok",
+        "Name": "Vostok Station, Antarctica"
+    },
+    {
+        "city": "Dumont-d'Urville Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/DumontDUrville",
+        "Name": "Dumont-d'Urville Station, Antarctica"
+    },
+    {
+        "city": "Syowa Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Syowa",
+        "Name": "Syowa Station, Antarctica"
+    },
+    {
+        "city": "Macquarie Island Station",
+        "country": "Antarctica",
+        "Id": "Antarctica/Macquarie",
+        "Name": "Macquarie Island Station, Antarctica"
+    },
+    {
+        "city": "Cordoba",
+        "country": "Argentina",
+        "Id": "America/Argentina/Cordoba",
+        "Name": "Cordoba, Argentina"
+    },
+    {
+        "city": "Salta",
+        "country": "Argentina",
+        "Id": "America/Argentina/Jujuy",
+        "Name": "Salta, Argentina"
+    },
+    {
+        "city": "San Salvador de Jujuy",
+        "country": "Argentina",
+        "Id": "America/Argentina/Jujuy",
+        "Name": "San Salvador de Jujuy, Argentina"
+    },
+    {
+        "city": "Tucaman",
+        "country": "Argentina",
+        "Id": "America/Argentina/Tucuman",
+        "Name": "Tucaman, Argentina"
+    },
+    {
+        "city": "Catamarca",
+        "country": "Argentina",
+        "Id": "America/Argentina/Catamarca",
+        "Name": "Catamarca, Argentina"
+    },
+    {
+        "city": "La Rioja",
+        "country": "Argentina",
+        "Id": "America/Argentina/La_Rioja",
+        "Name": "La Rioja, Argentina"
+    },
+    {
+        "city": "San Juan",
+        "country": "Argentina",
+        "Id": "America/Argentina/San_Juan",
+        "Name": "San Juan, Argentina"
+    },
+    {
+        "city": "Mendoza",
+        "country": "Argentina",
+        "Id": "America/Argentina/Mendoza",
+        "Name": "Mendoza, Argentina"
+    },
+    {
+        "city": "San Luis",
+        "country": "Argentina",
+        "Id": "America/Argentina/San_Luis",
+        "Name": "San Luis, Argentina"
+    },
+    {
+        "city": "Rio Gallegos",
+        "country": "Argentina",
+        "Id": "America/Argentina/Rio_Gallegos",
+        "Name": "Rio Gallegos, Argentina"
+    },
+    {
+        "city": "Ushuaia",
+        "country": "Argentina",
+        "Id": "America/Argentina/Ushuaia",
+        "Name": "Ushuaia, Argentina"
+    },
+    {
+        "city": "Lord Howe Island",
+        "country": "Australia",
+        "Id": "Australia/Lord_Howe",
+        "Name": "Lord Howe Island, Australia"
+    },
+    {
+        "city": "Currie",
+        "country": "Australia",
+        "Id": "Australia/Currie",
+        "Name": "Currie, Australia"
+    },
+    {
+        "city": "Broken Hill",
+        "country": "Australia",
+        "Id": "Australia/Broken_Hill",
+        "Name": "Broken Hill, Australia"
+    },
+    {
+        "city": "Lindeman Island",
+        "country": "Australia",
+        "Id": "Australia/Lindeman",
+        "Name": "Lindeman Island, Australia"
+    },
+    {
+        "city": "Eucla",
+        "country": "Australia",
+        "Id": "Australia/Eucla",
+        "Name": "Eucla, Australia"
+    },
+    {
+        "city": "Oranjestad",
+        "country": "Aruba",
+        "Id": "America/Aruba",
+        "Name": "Oranjestad, Aruba"
+    },
+    {
+        "city": "Mariehamn",
+        "country": "Åland Islands",
+        "Id": "Europe/Mariehamn",
+        "Name": "Mariehamn, Åland Islands"
+    },
+    {
+        "city": "Bujumbura",
+        "country": "Burundi",
+        "Id": "Africa/Bujumbura",
+        "Name": "Bujumbura, Burundi"
+    },
+    {
+        "city": "Porto-Novo",
+        "country": "Benin",
+        "Id": "Africa/Porto-Novo",
+        "Name": "Porto-Novo, Benin"
+    },
+    {
+        "city": "Bandar Seri Begawan",
+        "country": "Brunei",
+        "Id": "Asia/Brunei",
+        "Name": "Bandar Seri Begawan, Brunei"
+    },
+    {
+        "city": "Kralendijk",
+        "country": "Bonaire",
+        "Id": "America/Kralendijk",
+        "Name": "Kralendijk, Bonaire"
+    },
+    {
+        "city": "Belem",
+        "country": "Brazil",
+        "Id": "America/Belem",
+        "Name": "Belem, Brazil"
+    },
+    {
+        "city": "Fortaleza",
+        "country": "Brazil",
+        "Id": "America/Fortaleza",
+        "Name": "Fortaleza, Brazil"
+    },
+    {
+        "city": "Araguaina",
+        "country": "Brazil",
+        "Id": "America/Araguaina",
+        "Name": "Araguaina, Brazil"
+    },
+    {
+        "city": "Maceio",
+        "country": "Brazil",
+        "Id": "America/Maceio",
+        "Name": "Maceio, Brazil"
+    },
+    {
+        "city": "Campo Grande",
+        "country": "Brazil",
+        "Id": "America/Campo_Grande",
+        "Name": "Campo Grande, Brazil"
+    },
+    {
+        "city": "Cuiaba",
+        "country": "Brazil",
+        "Id": "America/Cuiaba",
+        "Name": "Cuiaba, Brazil"
+    },
+    {
+        "city": "Santarém",
+        "country": "Brazil",
+        "Id": "America/Santarem",
+        "Name": "Santarém, Brazil"
+    },
+    {
+        "city": "Porto Velho",
+        "country": "Brazil",
+        "Id": "America/Porto_Velho",
+        "Name": "Porto Velho, Brazil"
+    },
+    {
+        "city": "Boa Vista",
+        "country": "Brazil",
+        "Id": "America/Boa_Vista",
+        "Name": "Boa Vista, Brazil"
+    },
+    {
+        "city": "Manaus",
+        "country": "Brazil",
+        "Id": "America/Manaus",
+        "Name": "Manaus, Brazil"
+    },
+    {
+        "city": "Eirunepe",
+        "country": "Brazil",
+        "Id": "America/Eirunepe",
+        "Name": "Eirunepe, Brazil"
+    },
+    {
+        "city": "Nassau",
+        "country": "Bahamas",
+        "Id": "America/Nassau",
+        "Name": "Nassau, Bahamas"
+    },
+    {
+        "city": "Glace Bay",
+        "country": "Canada",
+        "Id": "America/Glace_Bay",
+        "Name": "Glace Bay, Canada"
+    },
+    {
+        "city": "Moncton",
+        "country": "Canada",
+        "Id": "America/Moncton",
+        "Name": "Moncton, Canada"
+    },
+    {
+        "city": "Happy Valley-Goose Bay",
+        "country": "Canada",
+        "Id": "America/Goose_Bay",
+        "Name": "Happy Valley-Goose Bay, Canada"
+    },
+    {
+        "city": "Blanc-Sablon",
+        "country": "Canada",
+        "Id": "America/Blanc-Sablon",
+        "Name": "Blanc-Sablon, Canada"
+    },
+    {
+        "city": "Nipigon",
+        "country": "Canada",
+        "Id": "America/Nipigon",
+        "Name": "Nipigon, Canada"
+    },
+    {
+        "city": "Thunder Bay",
+        "country": "Canada",
+        "Id": "America/Thunder_Bay",
+        "Name": "Thunder Bay, Canada"
+    },
+    {
+        "city": "Iqaluit",
+        "country": "Canada",
+        "Id": "America/Iqaluit",
+        "Name": "Iqaluit, Canada"
+    },
+    {
+        "city": "Pangnirtung",
+        "country": "Canada",
+        "Id": "America/Pangnirtung",
+        "Name": "Pangnirtung, Canada"
+    },
+    {
+        "city": "Resolute",
+        "country": "Canada",
+        "Id": "America/Resolute",
+        "Name": "Resolute, Canada"
+    },
+    {
+        "city": "Atikokan",
+        "country": "Canada",
+        "Id": "America/Atikokan",
+        "Name": "Atikokan, Canada"
+    },
+    {
+        "city": "Rankin Inlet",
+        "country": "Canada",
+        "Id": "America/Rankin_Inlet",
+        "Name": "Rankin Inlet, Canada"
+    },
+    {
+        "city": "Rainy River",
+        "country": "Canada",
+        "Id": "America/Rainy_River",
+        "Name": "Rainy River, Canada"
+    },
+    {
+        "city": "Swift Current",
+        "country": "Canada",
+        "Id": "America/Swift_Current",
+        "Name": "Swift Current, Canada"
+    },
+    {
+        "city": "Edmonton",
+        "country": "Canada",
+        "Id": "America/Edmonton",
+        "Name": "Edmonton, Canada"
+    },
+    {
+        "city": "Cambridge Bay",
+        "country": "Canada",
+        "Id": "America/Cambridge_Bay",
+        "Name": "Cambridge Bay, Canada"
+    },
+    {
+        "city": "Yellowknife",
+        "country": "Canada",
+        "Id": "America/Yellowknife",
+        "Name": "Yellowknife, Canada"
+    },
+    {
+        "city": "Inuvik",
+        "country": "Canada",
+        "Id": "America/Inuvik",
+        "Name": "Inuvik, Canada"
+    },
+    {
+        "city": "Dawson Creek",
+        "country": "Canada",
+        "Id": "America/Dawson_Creek",
+        "Name": "Dawson Creek, Canada"
+    },
+    {
+        "city": "Whitehorse",
+        "country": "Canada",
+        "Id": "America/Whitehorse",
+        "Name": "Whitehorse, Canada"
+    },
+    {
+        "city": "Dawson City",
+        "country": "Canada",
+        "Id": "America/Dawson",
+        "Name": "Dawson City, Canada"
+    },
+    {
+        "city": "Bantam Village",
+        "country": "Cocos (Keeling) Islands",
+        "Id": "Indian/Cocos",
+        "Name": "Bantam Village, Cocos (Keeling) Islands"
+    },
+    {
+        "city": "Lubumbashi",
+        "country": "Democratic Republic of the Congo",
+        "Id": "Africa/Lubumbashi",
+        "Name": "Lubumbashi, Democratic Republic of the Congo"
+    },
+    {
+        "city": "Rarotonga",
+        "country": "Cook Islands",
+        "Id": "Pacific/Rarotonga",
+        "Name": "Rarotonga, Cook Islands"
+    },
+    {
+        "city": "Harbin",
+        "country": "China",
+        "Id": "Asia/Harbin",
+        "Name": "Harbin, China"
+    },
+    {
+        "city": "Chongqing",
+        "country": "China",
+        "Id": "Asia/Chongqing",
+        "Name": "Chongqing, China"
+    },
+    {
+        "city": "Urumqi",
+        "country": "China",
+        "Id": "Asia/Urumqi",
+        "Name": "Urumqi, China"
+    },
+    {
+        "city": "Kashgar",
+        "country": "China",
+        "Id": "Asia/Kashgar",
+        "Name": "Kashgar, China"
+    },
+    {
+        "city": "Praia",
+        "country": "Cape Verde",
+        "Id": "Atlantic/Cape_Verde",
+        "Name": "Praia, Cape Verde"
+    },
+    {
+        "city": "Willemstad",
+        "country": "Curacao",
+        "Id": "America/Curacao",
+        "Name": "Willemstad, Curacao"
+    },
+    {
+        "city": "The Settlement",
+        "country": "Christmas Island",
+        "Id": "Indian/Christmas",
+        "Name": "The Settlement, Christmas Island"
+    },
+    {
+        "city": "Roseau",
+        "country": "Dominica",
+        "Id": "America/Dominica",
+        "Name": "Roseau, Dominica"
+    },
+    {
+        "city": "Guayaquil",
+        "country": "Ecuador",
+        "Id": "America/Guayaquil",
+        "Name": "Guayaquil, Ecuador"
+    },
+    {
+        "city": "El-Aaiun",
+        "country": "Western Sahara",
+        "Id": "Africa/El_Aaiun",
+        "Name": "El-Aaiun, Western Sahara"
+    },
+    {
+        "city": "Ceuta",
+        "country": "Spain",
+        "Id": "Africa/Ceuta",
+        "Name": "Ceuta, Spain"
+    },
+    {
+        "city": "Stanley",
+        "country": "Falkland Islands",
+        "Id": "Atlantic/Stanley",
+        "Name": "Stanley, Falkland Islands"
+    },
+    {
+        "city": "Chuuk",
+        "country": "Micronesia",
+        "Id": "Pacific/Chuuk",
+        "Name": "Chuuk, Micronesia"
+    },
+    {
+        "city": "Pohnpei",
+        "country": "Micronesia",
+        "Id": "Pacific/Pohnpei",
+        "Name": "Pohnpei, Micronesia"
+    },
+    {
+        "city": "Kosrae",
+        "country": "Micronesia",
+        "Id": "Pacific/Kosrae",
+        "Name": "Kosrae, Micronesia"
+    },
+    {
+        "city": "Libreville",
+        "country": "Gabon",
+        "Id": "Africa/Libreville",
+        "Name": "Libreville, Gabon"
+    },
+    {
+        "city": "St. Georges",
+        "country": "Grenada",
+        "Id": "America/Grenada",
+        "Name": "St. Georges, Grenada"
+    },
+    {
+        "city": "Saint Peter Port",
+        "country": "Guernsey",
+        "Id": "Europe/Guernsey",
+        "Name": "Saint Peter Port, Guernsey"
+    },
+    {
+        "city": "Gibraltar",
+        "country": "Gibraltar",
+        "Id": "Europe/Gibraltar",
+        "Name": "Gibraltar, Gibraltar"
+    },
+    {
+        "city": "Chengdu",
+        "country": "China",
+        "Id": "Asia/Chongqing",
+        "Name": "Chengdu, China"
+    },
+    {
+        "city": "Dalian",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Dalian, China"
+    },
+    {
+        "city": "Hefei",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Hefei, China"
+    },
+    {
+        "city": "Lhasa",
+        "country": "China",
+        "Id": "Asia/Chongqing",
+        "Name": "Lhasa, China"
+    },
+    {
+        "city": "Nanjing",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Nanjing, China"
+    },
+    {
+        "city": "Qingdao",
+        "country": "China",
+        "Id": "Asia/Shanghai",
+        "Name": "Qingdao, China"
+    },
+    {
+        "city": "Shenyang",
+        "country": "China",
+        "Id": "Asia/Harbin",
+        "Name": "Shenyang, China"
+    },
+    {
+        "city": "Danmarkshavn",
+        "country": "Greenland",
+        "Id": "America/Danmarkshavn",
+        "Name": "Danmarkshavn, Greenland"
+    },
+    {
+        "city": "Ittoqqortoormiit",
+        "country": "Greenland",
+        "Id": "America/Scoresbysund",
+        "Name": "Ittoqqortoormiit, Greenland"
+    },
+    {
+        "city": "Thule",
+        "country": "Greenland",
+        "Id": "America/Thule",
+        "Name": "Thule, Greenland"
+    },
+    {
+        "city": "Banjul",
+        "country": "Gambia",
+        "Id": "Africa/Banjul",
+        "Name": "Banjul, Gambia"
+    },
+    {
+        "city": "Pontianak",
+        "country": "Indonesia",
+        "Id": "Asia/Pontianak",
+        "Name": "Pontianak, Indonesia"
+    },
+    {
+        "city": "Douglas",
+        "country": "Isle of Man",
+        "Id": "Europe/Isle_of_Man",
+        "Name": "Douglas, Isle of Man"
+    },
+    {
+        "city": "Diego Garcia",
+        "country": "British Indian Ocean Territory",
+        "Id": "Indian/Chagos",
+        "Name": "Diego Garcia, British Indian Ocean Territory"
+    },
+    {
+        "city": "St. Helier",
+        "country": "Bailiwick of Jersey",
+        "Id": "Europe/Jersey",
+        "Name": "St. Helier, Bailiwick of Jersey"
+    },
+    {
+        "city": "Tarawa",
+        "country": "Kiribati",
+        "Id": "Pacific/Tarawa",
+        "Name": "Tarawa, Kiribati"
+    },
+    {
+        "city": "Kanton Island",
+        "country": "Kiribati",
+        "Id": "Pacific/Enderbury",
+        "Name": "Kanton Island, Kiribati"
+    },
+    {
+        "city": "Kiritimati",
+        "country": "Kiribati",
+        "Id": "Pacific/Kiritimati",
+        "Name": "Kiritimati, Kiribati"
+    },
+    {
+        "city": "Moroni",
+        "country": "Comoros",
+        "Id": "Indian/Comoro",
+        "Name": "Moroni, Comoros"
+    },
+    {
+        "city": "Basseterre",
+        "country": "Saint Kitts and Nevis",
+        "Id": "America/St_Kitts",
+        "Name": "Basseterre, Saint Kitts and Nevis"
+    },
+    {
+        "city": "George Town",
+        "country": "Cayman Islands",
+        "Id": "America/Cayman",
+        "Name": "George Town, Cayman Islands"
+    },
+    {
+        "city": "Kyzylorda",
+        "country": "Kazakhstan",
+        "Id": "Asia/Qyzylorda",
+        "Name": "Kyzylorda, Kazakhstan"
+    },
+    {
+        "city": "Aqtobe",
+        "country": "Kazakhstan",
+        "Id": "Asia/Aqtobe",
+        "Name": "Aqtobe, Kazakhstan"
+    },
+    {
+        "city": "Atyrau",
+        "country": "Kazakhstan",
+        "Id": "Asia/Aqtau",
+        "Name": "Atyrau, Kazakhstan"
+    },
+    {
+        "city": "Oral",
+        "country": "Kazakhstan",
+        "Id": "Asia/Oral",
+        "Name": "Oral, Kazakhstan"
+    },
+    {
+        "city": "Castries",
+        "country": "Saint Lucia",
+        "Id": "America/St_Lucia",
+        "Name": "Castries, Saint Lucia"
+    },
+    {
+        "city": "Monaco",
+        "country": "Monaco",
+        "Id": "Europe/Monaco",
+        "Name": "Monaco, Monaco"
+    },
+    {
+        "city": "Majuro",
+        "country": "Marshall Islands",
+        "Id": "Pacific/Majuro",
+        "Name": "Majuro, Marshall Islands"
+    },
+    {
+        "city": "Kwajalein Atoll",
+        "country": "Marshall Islands",
+        "Id": "Pacific/Kwajalein",
+        "Name": "Kwajalein Atoll, Marshall Islands"
+    },
+    {
+        "city": "Hovd",
+        "country": "Mongolia",
+        "Id": "Asia/Hovd",
+        "Name": "Hovd, Mongolia"
+    },
+    {
+        "city": "Choibalsan",
+        "country": "Mongolia",
+        "Id": "Asia/Choibalsan",
+        "Name": "Choibalsan, Mongolia"
+    },
+    {
+        "city": "Saipan",
+        "country": "Northern Mariana Islands",
+        "Id": "Pacific/Saipan",
+        "Name": "Saipan, Northern Mariana Islands"
+    },
+    {
+        "city": "Plymouth",
+        "country": "Montserrat",
+        "Id": "America/Montserrat",
+        "Name": "Plymouth, Montserrat"
+    },
+    {
+        "city": "Blantyre",
+        "country": "Malawi",
+        "Id": "Africa/Blantyre",
+        "Name": "Blantyre, Malawi"
+    },
+    {
+        "city": "Cancun",
+        "country": "Mexico",
+        "Id": "America/Cancun",
+        "Name": "Cancun, Mexico"
+    },
+    {
+        "city": "Mérida",
+        "country": "Mexico",
+        "Id": "America/Merida",
+        "Name": "Mérida, Mexico"
+    },
+    {
+        "city": "Monterrey",
+        "country": "Mexico",
+        "Id": "America/Monterrey",
+        "Name": "Monterrey, Mexico"
+    },
+    {
+        "city": "Mazatlán",
+        "country": "Mexico",
+        "Id": "America/Mazatlan",
+        "Name": "Mazatlán, Mexico"
+    },
+    {
+        "city": "Chihuahua",
+        "country": "Mexico",
+        "Id": "America/Chihuahua",
+        "Name": "Chihuahua, Mexico"
+    },
+    {
+        "city": "Hermosillo",
+        "country": "Mexico",
+        "Id": "America/Hermosillo",
+        "Name": "Hermosillo, Mexico"
+    },
+    {
+        "city": "Tijuana",
+        "country": "Mexico",
+        "Id": "America/Tijuana",
+        "Name": "Tijuana, Mexico"
+    },
+    {
+        "city": "Puerto Vallarta",
+        "country": "Mexico",
+        "Id": "America/Bahia_Banderas",
+        "Name": "Puerto Vallarta, Mexico"
+    },
+    {
+        "city": "Kuching",
+        "country": "Malaysia",
+        "Id": "Asia/Kuching",
+        "Name": "Kuching, Malaysia"
+    },
+    {
+        "city": "Kingston",
+        "country": "Norfolk Island",
+        "Id": "Pacific/Norfolk",
+        "Name": "Kingston, Norfolk Island"
+    },
+    {
+        "city": "Nauru",
+        "country": "Micronesia",
+        "Id": "Pacific/Nauru",
+        "Name": "Nauru, Micronesia"
+    },
+    {
+        "city": "Alofi",
+        "country": "Niue",
+        "Id": "Pacific/Niue",
+        "Name": "Alofi, Niue"
+    },
+    {
+        "city": "Chatham Island",
+        "country": "New Zealand",
+        "Id": "Pacific/Chatham",
+        "Name": "Chatham Island, New Zealand"
+    },
+    {
+        "city": "Taiohae",
+        "country": "French Polynesia",
+        "Id": "Pacific/Marquesas",
+        "Name": "Taiohae, French Polynesia"
+    },
+    {
+        "city": "Rikitea",
+        "country": "French Polynesia",
+        "Id": "Pacific/Gambier",
+        "Name": "Rikitea, French Polynesia"
+    },
+    {
+        "city": "Port Moresby",
+        "country": "Papua New Guinea",
+        "Id": "Pacific/Port_Moresby",
+        "Name": "Port Moresby, Papua New Guinea"
+    },
+    {
+        "city": "Karachi",
+        "country": "Pakistan",
+        "Id": "Asia/Karachi",
+        "Name": "Karachi, Pakistan"
+    },
+    {
+        "city": "Saint-Pierre",
+        "country": "Saint Pierre and Miquelon",
+        "Id": "America/Miquelon",
+        "Name": "Saint-Pierre, Saint Pierre and Miquelon"
+    },
+    {
+        "city": "Adamstown",
+        "country": "Pitcairn Islands",
+        "Id": "Pacific/Pitcairn",
+        "Name": "Adamstown, Pitcairn Islands"
+    },
+    {
+        "city": "Gaza",
+        "country": "Palestinian Territories",
+        "Id": "Asia/Gaza",
+        "Name": "Gaza, Palestinian Territories"
+    },
+    {
+        "city": "Hebron",
+        "country": "Palestinian Territories",
+        "Id": "Asia/Hebron",
+        "Name": "Hebron, Palestinian Territories"
+    },
+    {
+        "city": "Funchal",
+        "country": "Madeira",
+        "Id": "Atlantic/Madeira",
+        "Name": "Funchal, Madeira"
+    },
+    {
+        "city": "Vincennes",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Vincennes",
+        "Name": "Vincennes, U.S.A."
+    },
+    {
+        "city": "Koror",
+        "country": "Palau",
+        "Id": "Pacific/Palau",
+        "Name": "Koror, Palau"
+    },
+    {
+        "city": "Novokuznetsk",
+        "country": "Russia",
+        "Id": "Asia/Novokuznetsk",
+        "Name": "Novokuznetsk, Russia"
+    },
+    {
+        "city": "Yuzhno-Sakhalinsk",
+        "country": "Russia",
+        "Id": "Asia/Sakhalin",
+        "Name": "Yuzhno-Sakhalinsk, Russia"
+    },
+    {
+        "city": "Petropavlovsk-Kamchatsky",
+        "country": "Russia",
+        "Id": "Asia/Kamchatka",
+        "Name": "Petropavlovsk-Kamchatsky, Russia"
+    },
+    {
+        "city": "Monticello",
+        "country": "U.S.A.",
+        "Id": "America/Kentucky/Monticello",
+        "Name": "Monticello, U.S.A."
+    },
+    {
+        "city": "Kigali",
+        "country": "Rwanda",
+        "Id": "Africa/Kigali",
+        "Name": "Kigali, Rwanda"
+    },
+    {
+        "city": "Honiara",
+        "country": "Solomon Islands",
+        "Id": "Pacific/Guadalcanal",
+        "Name": "Honiara, Solomon Islands"
+    },
+    {
+        "city": "Jamestown",
+        "country": "Saint Helena, Ascension and Tristan da Cunha",
+        "Id": "Atlantic/St_Helena",
+        "Name": "Jamestown, Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+        "city": "Longyearbyen",
+        "country": "Norway",
+        "Id": "Arctic/Longyearbyen",
+        "Name": "Longyearbyen, Norway"
+    },
+    {
+        "city": "Juba",
+        "country": "South Sudan",
+        "Id": "Africa/Juba",
+        "Name": "Juba, South Sudan"
+    },
+    {
+        "city": "São Tomé",
+        "country": "São Tomé and Príncipe",
+        "Id": "Africa/Sao_Tome",
+        "Name": "São Tomé, São Tomé and Príncipe"
+    },
+    {
+        "city": "Lower Prince's Quarter",
+        "country": "Sint Maarten",
+        "Id": "America/Lower_Princes",
+        "Name": "Lower Prince's Quarter, Sint Maarten"
+    },
+    {
+        "city": "Cockburn Town",
+        "country": "Turks and Caicos Islands",
+        "Id": "America/Grand_Turk",
+        "Name": "Cockburn Town, Turks and Caicos Islands"
+    },
+    {
+        "city": "Port-aux-Français",
+        "country": "French Southern & Antarctic Lands",
+        "Id": "Indian/Kerguelen",
+        "Name": "Port-aux-Français, French Southern & Antarctic Lands"
+    },
+    {
+        "city": "Fale",
+        "country": "Tokelau",
+        "Id": "Pacific/Fakaofo",
+        "Name": "Fale, Tokelau"
+    },
+    {
+        "city": "Dili",
+        "country": "East Timor",
+        "Id": "Asia/Dili",
+        "Name": "Dili, East Timor"
+    },
+    {
+        "city": "Winamac",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Winamac",
+        "Name": "Winamac, U.S.A."
+    },
+    {
+        "city": "Marengo",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Marengo",
+        "Name": "Marengo, U.S.A."
+    },
+    {
+        "city": "Petersburg",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Petersburg",
+        "Name": "Petersburg, U.S.A."
+    },
+    {
+        "city": "Vevay",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Vevay",
+        "Name": "Vevay, U.S.A."
+    },
+    {
+        "city": "Tell City",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Tell_City",
+        "Name": "Tell City, U.S.A."
+    },
+    {
+        "city": "Knox",
+        "country": "U.S.A.",
+        "Id": "America/Indiana/Knox",
+        "Name": "Knox, U.S.A."
+    },
+    {
+        "city": "Menominee",
+        "country": "U.S.A.",
+        "Id": "America/Menominee",
+        "Name": "Menominee, U.S.A."
+    },
+    {
+        "city": "Center",
+        "country": "U.S.A.",
+        "Id": "America/North_Dakota/Center",
+        "Name": "Center, U.S.A."
+    },
+    {
+        "city": "Beulah",
+        "country": "U.S.A.",
+        "Id": "America/North_Dakota/Beulah",
+        "Name": "Beulah, U.S.A."
+    },
+    {
+        "city": "Boise",
+        "country": "U.S.A.",
+        "Id": "America/Boise",
+        "Name": "Boise, U.S.A."
+    },
+    {
+        "city": "Shiprock",
+        "country": "U.S.A.",
+        "Id": "America/Shiprock",
+        "Name": "Shiprock, U.S.A."
+    },
+    {
+        "city": "Juneau",
+        "country": "U.S.A.",
+        "Id": "America/Juneau",
+        "Name": "Juneau, U.S.A."
+    },
+    {
+        "city": "Sitka",
+        "country": "U.S.A.",
+        "Id": "America/Sitka",
+        "Name": "Sitka, U.S.A."
+    },
+    {
+        "city": "Yakutat",
+        "country": "U.S.A.",
+        "Id": "America/Yakutat",
+        "Name": "Yakutat, U.S.A."
+    },
+    {
+        "city": "Nome",
+        "country": "U.S.A.",
+        "Id": "America/Nome",
+        "Name": "Nome, U.S.A."
+    },
+    {
+        "city": "Metlakatla",
+        "country": "U.S.A.",
+        "Id": "America/Metlakatla",
+        "Name": "Metlakatla, U.S.A."
+    },
+    {
+        "city": "Samarkand",
+        "country": "Uzbekistan",
+        "Id": "Asia/Samarkand",
+        "Name": "Samarkand, Uzbekistan"
+    },
+    {
+        "city": "Vatican City",
+        "country": "",
+        "Id": "Europe/Vatican",
+        "Name": "Vatican City"
+    },
+    {
+        "city": "Kingstown",
+        "country": "Saint Vincent and the Grenadines",
+        "Id": "America/St_Vincent",
+        "Name": "Kingstown, Saint Vincent and the Grenadines"
+    },
+    {
+        "city": "Road Town",
+        "country": "British Virgin Islands",
+        "Id": "America/Tortola",
+        "Name": "Road Town, British Virgin Islands"
+    },
+    {
+        "city": "Christiansted",
+        "country": "U.S. Virgin Islands",
+        "Id": "America/Virgin",
+        "Name": "Christiansted, U.S. Virgin Islands"
+    },
+    {
+        "city": "Efate",
+        "country": "Vanuatu",
+        "Id": "Pacific/Efate",
+        "Name": "Efate, Vanuatu"
+    },
+    {
+        "city": "Mata-Utu",
+        "country": "Wallis and Futuna",
+        "Id": "Pacific/Wallis",
+        "Name": "Mata-Utu, Wallis and Futuna"
+    },
+    {
+        "city": "Aden",
+        "country": "Yemen",
+        "Id": "Asia/Aden",
+        "Name": "Aden, Yemen"
+    },
+    {
+        "city": "Mamoudzou",
+        "country": "Mayotte",
+        "Id": "Indian/Mayotte",
+        "Name": "Mamoudzou, Mayotte"
+    },
+    {
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "Id": "Europe/Stockholm",
+        "Name": "Gothenburg, Sweden"
+    },
+    {
+        "city": "Malmö",
+        "country": "Sweden",
+        "Id": "Europe/Stockholm",
+        "Name": "Malmö, Sweden"
+    },
+    {
+        "city": "New Salem",
+        "country": "U.S.A.",
+        "Id": "America/North_Dakota/New_Salem",
+        "Name": "New Salem, U.S.A."
+    },
+    {
+        "city": "Creston",
+        "country": "Canada",
+        "Id": "America/Creston",
+        "Name": "Creston, Canada"
+    },
+    {
+        "city": "Quebec City",
+        "country": "Canada",
+        "Id": "America/Montreal",
+        "Name": "Quebec City, Canada"
+    },
+    {
+        "city": "Nashville",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Nashville, U.S.A."
+    },
+    {
+        "city": "Green Bay",
+        "country": "U.S.A.",
+        "Id": "US/Central",
+        "Name": "Green Bay, U.S.A."
+    },
+    {
+        "city": "Acapulco",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Acapulco, Mexico"
+    },
+    {
+        "city": "Aguascalientes",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Aguascalientes, Mexico"
+    },
+    {
+        "city": "Ciudad Juárez",
+        "country": "Mexico",
+        "Id": "America/Chihuahua",
+        "Name": "Ciudad Juárez, Mexico"
+    },
+    {
+        "city": "Cuernavaca",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Cuernavaca, Mexico"
+    },
+    {
+        "city": "Guadalajara",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Guadalajara, Mexico"
+    },
+    {
+        "city": "Guanajuato",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Guanajuato, Mexico"
+    },
+    {
+        "city": "León",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "León, Mexico"
+    },
+    {
+        "city": "Mexicali",
+        "country": "Mexico",
+        "Id": "America/Tijuana",
+        "Name": "Mexicali, Mexico"
+    },
+    {
+        "city": "Puebla",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Puebla, Mexico"
+    },
+    {
+        "city": "Querétaro",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Querétaro, Mexico"
+    },
+    {
+        "city": "San Luis Potosí",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "San Luis Potosí, Mexico"
+    },
+    {
+        "city": "Toluca",
+        "country": "Mexico",
+        "Id": "America/Mexico_City",
+        "Name": "Toluca, Mexico"
+    },
+    {
+        "city": "Torreón",
+        "country": "Mexico",
+        "Id": "America/Monterrey",
+        "Name": "Torreón, Mexico"
+    },
+    {
+        "city": "Odessa",
+        "country": "Ukraine",
+        "Id": "Europe/Kiev",
+        "Name": "Odessa, Ukraine"
+    },
+    {
+        "city": "Donetsk",
+        "country": "Ukraine",
+        "Id": "Europe/Kiev",
+        "Name": "Donetsk, Ukraine"
+    },
+    {
+        "city": "Casablanca",
+        "country": "Morocco",
+        "Id": "Africa/Casablanca",
+        "Name": "Casablanca, Morocco"
+    },
+    {
+        "city": "Marrakesh",
+        "country": "Morocco",
+        "Id": "Africa/Casablanca",
+        "Name": "Marrakesh, Morocco"
+    },
+    {
+        "city": "Punta Arenas",
+        "country": "Chile",
+        "Id": "America/Punta_Arenas",
+        "Name": "Punta Arenas, Chile"
+    }
+]

@@ -5,7 +5,7 @@ import createReducer from 'app/lib/createReducer';
 import * as types from 'app/actions/types';
 
 const initialState = {
-  isSuccess: false,
+  isSuccess: '',
   userInfo: {},
 };
 
@@ -24,14 +24,20 @@ export const signUpReducer = createReducer(initialState, {
     return {
       ...state,
       isSuccess: true,
-      userInfo: action.response,
+      userInfo: action.response
     };
   },
   [types.SIGNUP_FAILED](state, action) {
     return {
       ...state,
       isSuccess: false,
-      userInfo: action.response,
+      userInfo: action.response
     };
   },
+  [types.SIGNUP_NULL](state) {
+    return {
+      ...state,
+      isSuccess: ''
+    };
+  }
 });

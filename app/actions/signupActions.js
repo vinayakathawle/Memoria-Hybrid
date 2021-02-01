@@ -4,13 +4,6 @@
 import * as types from './types';
 
 export function requestSignUp(firstName, lastName, email, company, timeZone) {
-  console.log('firstName ', firstName)
-  console.log('lastName ', lastName)
-  console.log('company ', company)
-  console.log('email ', email)
-  console.log('timeZone ', timeZone)
-
-
   return {
     type: types.SIGNUP_REQUEST,
     firstName,
@@ -32,6 +25,12 @@ export function signUpFailed(response) {
   return {
     type: types.SIGNUP_FAILED,
     response
+  };
+}
+
+export function signupNull() {
+  return {
+    type: types.SIGNUP_NULL
   };
 }
 

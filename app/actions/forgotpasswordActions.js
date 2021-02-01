@@ -4,7 +4,6 @@
 import * as types from './types';
 
 export function requestForgotPassword(email) {
-  console.log(email)
   return {
     type: types.FORGOTPASS_REQUEST,
     email
@@ -22,6 +21,12 @@ export function forgotPasswordFailed(response) {
   return {
     type: types.FORGOTPASS_FAILED,
     response
+  };
+}
+
+export function forgotPasswordNull() {
+  return {
+    type: types.FORGOTPASS_NULL
   };
 }
 
